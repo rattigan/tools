@@ -29,6 +29,6 @@ brew install Caskroom/cask/bettertouchtool
 brew install Caskroom/cask/quicksilver
 brew install Caskroom/cask/java
 brew install Caskroom/cask/intellij-idea
-brew install Caskroom/cask/chrome
+brew install Caskroom/cask/google-chrome
 
 log "done setting up tools"
