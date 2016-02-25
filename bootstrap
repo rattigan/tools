@@ -23,6 +23,8 @@ log "setting default shell"
 sudo chsh -s /usr/local/bin/zsh $USER
 
 log "installing java"
+brew install Caskroom/cask/witch
+brew install Caskroom/cask/bettertouchtool
 brew install Caskroom/cask/java
-
+brew install Caskroom/cask/intellij-idea
 log "done setting up tools"
