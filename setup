@@ -11,7 +11,23 @@ function link_tools {
     fi
 
     log "linking $this_dir to $target_dir"
-    ln -sfh "$this_dir" "$target_dir"
+    ln -sh "$this_dir" "$target_dir"
+}
+
+function link_home {
+    log "linking home"
+    ls -A "$this_dir"/home/ | while read file; do
+        local target_file="$HOME/$file"
+        if [[ -e "$target_file" ]]; then
+            log "$target_file already exists"
+            return
+        fi
+
+        local source_file="$this_dir/home/$file"
+        log "linking $source_file to $target_file"
+        ln -sh "$source_file" "$target_file"
+    done
 }
 
 link_tools
+link_home
