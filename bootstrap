@@ -20,4 +20,7 @@ grep /usr/local/bin/zsh /etc/shells || sudo bash -c "printf '%s\n' "/usr/local/b
 log "setting default shell"
 sudo chsh -s /usr/local/bin/zsh $USER
 
+log "installing java"
+brew install Caskroom/cask/java
+
 log "done setting up tools"
