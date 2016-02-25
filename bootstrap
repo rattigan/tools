@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+. _common.sh
+
+log "setting up tools"
+./setup
+
+log "installing homebrew"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || true
+
+log "checking for xcode installation (install via App Store if this fails"
+xcode-select -p
+
+log "installing zsh"
+brew install zsh
+
+log "adding zsh to /etc/shells"
+grep /usr/local/bin/zsh /etc/shells || sudo bash -c "printf '%s\n' "/usr/local/bin/zsh" >> /etc/shells"
+
+log "setting default shell"
+sudo chsh -s /usr/local/bin/zsh $USER
+
+log "done setting up tools"

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+. _common.sh
+. _profile.sh
+
+source="${1?"ERROR: missing source repo (argument 1)"}"
+shift
+: "${GITHUB_USER?"ERROR: add github_user to _profile.sh"}"
+
+log cloning "$source"
+git clone "https://github.com/$GITHUB_USER/$source.git" "$@"
+

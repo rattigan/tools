@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+. _common.sh
+. _profile.sh
+
+source="${1?"ERROR: missing source repo (argument 1)"}"
+target="${2?"ERROR: missing target repo (argument 2)"}"
+: "${GITHUB_USER?"ERROR: add github_user to _profile.sh"}"
+
+log cloning "$source" to "$target"
+git clone "https://github.com/$GITHUB_USER/$source.git" "$target"
+
+log configuring "$target"
+cd "$target"
+git remote set-url origin "https://github.com/$GITHUB_USER/$target.git"
+git remote add upstream "../$source"
+#git remote add upstream "https://github.com/$GITHUB_USER/$source.git"
+touch .gitignore
+git add -A
+if [[ `git status --porcelain` ]]; then
+    git commit -m 'initial commit'
+fi
+
+log pushing "$target" to github
+git push origin master
+git push --all

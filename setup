@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+. _common.sh
+
+function link_tools {
+    log "linking tools"
+    local target_dir="$HOME/$(basename "$this_dir")"
+    if [[ -e "$target_dir" ]]; then
+        log "$target_dir already exists"
+        return
+    fi
+
+    log "linking $this_dir to $target_dir"
+    ln -sfh "$this_dir" "$target_dir"
+}
+
+link_tools
