@@ -18,9 +18,6 @@ bashcompinit
 ################################################################################
 # Path
 
-# my executables
-export PATH=$HOME/bin:$HOME/tools:$PATH
-
 # npm executables
 export PATH=/usr/local/lib/node_modules/roots/node_modules/.bin:$PATH
 
@@ -32,13 +29,16 @@ export PATH=/usr/bin:/usr/texbin:$PATH
 export MANPATH=/usr/bin/man:$MANPATH
 export PATH=/usr/sbin:$PATH
 
+# root
+export PATH=/bin:$PATH
+export PATH=/sbin:$PATH
+
 # local
 export PATH=/usr/local/bin:$PATH
 export MANPATH=/usr/local/share/man:$MANPATH
 
-# root
-export PATH=/bin:$PATH
-export PATH=/sbin:$PATH
+# my executables
+export PATH=$HOME/bin:$HOME/tools:$PATH
 
 ################################################################################
 # Python
