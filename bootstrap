@@ -30,5 +30,6 @@ brew install Caskroom/cask/quicksilver
 brew install Caskroom/cask/java
 brew install Caskroom/cask/intellij-idea
 brew install Caskroom/cask/google-chrome
+brew install Caskroom/cask/1password
 
 log "done setting up tools"
