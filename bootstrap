@@ -2,34 +2,74 @@
 
 . _common.sh
 
+function install_homebrew {
+    log "installing homebrew"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || true
+}
+
+function check_xcode_installed {
+    log "checking for xcode installation (install via App Store if this fails (or just run git)"
+    xcode-select -p
+}
+
+function brew_install_apps {
+    brew install zsh
+    brew install Caskroom/versions/iterm2-beta
+    brew install Caskroom/cask/witch
+    brew install Caskroom/cask/bettertouchtool
+    brew install Caskroom/cask/quicksilver
+    brew install Caskroom/cask/dropbox
+    brew install Caskroom/cask/java
+    brew install Caskroom/cask/intellij-idea
+    brew install Caskroom/cask/google-chrome
+    brew install Caskroom/cask/1password
+    brew install Caskroom/cask/diffmerge
+    brew install Caskroom/cask/skype
+}
+
+function setup_zsh_shell {
+    log "adding zsh to /etc/shells"
+    grep /usr/local/bin/zsh /etc/shells || sudo bash -c "printf '%s\n' "/usr/local/bin/zsh" >> /etc/shells"
+
+    log "setting default shell"
+    sudo chsh -s /usr/local/bin/zsh $USER
+}
+
+function set_defaults {
+    log "setting defaults"
+    # faster keybaord
+    defaults write NSGlobalDomain InitialKeyRepeat -float 10
+    defaults write NSGlobalDomain KeyRepeat -int 2
+
+    # ensure that the dock stays hidden
+    defaults write "com.apple.dock" autohide-delay -float 10000
+
+    # stop apps reopening on reboot
+    defaults write -g ApplePersistence -bool no
+}
+
+function install_login_script {
+    local plist=$( cat ./login.plist | sed 's/$USER/'"$USER"'/' )
+    cat > /Users/"$USER"/Library/LaunchAgents/login.plist <<< "$plist"
+}
+
+function reboot {
+    log "hit enter to reboot"
+    read
+    sudo reboot
+}
+
 pushd "$this_dir" > /dev/null
 
-log "setting up tools"
+log "bootstrapping"
+
 ./setup
+check_xcode_installed
+install_homebrew
+brew_install_apps
+setup_zsh_shell
+install_login_script
+set_defaults
+reboot
 
-log "installing homebrew"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || true
-
-log "checking for xcode installation (install via App Store if this fails"
-xcode-select -p
-
-log "installing zsh"
-brew install zsh
-
-log "adding zsh to /etc/shells"
-grep /usr/local/bin/zsh /etc/shells || sudo bash -c "printf '%s\n' "/usr/local/bin/zsh" >> /etc/shells"
-
-log "setting default shell"
-sudo chsh -s /usr/local/bin/zsh $USER
-
-log "installing java"
-brew install Caskroom/versions/iterm2-beta
-brew install Caskroom/cask/witch
-brew install Caskroom/cask/bettertouchtool
-brew install Caskroom/cask/quicksilver
-brew install Caskroom/cask/java
-brew install Caskroom/cask/intellij-idea
-brew install Caskroom/cask/google-chrome
-brew install Caskroom/cask/1password
-
-log "done setting up tools"
+log "bootstrapping complete"
