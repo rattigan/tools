@@ -1,7 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>close()</find>
       <find>close</find>
       <find>log</find>
       <find>//log.err</find>
@@ -31,9 +30,9 @@
       <find>trap</find>
       <find>trap_off</find>
       <find>_dir</find>
+      <find>_</find>
     </findStrings>
     <replaceStrings>
-      <replace>this</replace>
       <replace>public</replace>
       <replace>BuiltIns</replace>
       <replace>def</replace>
@@ -63,6 +62,7 @@
       <replace>|</replace>
       <replace>buffer</replace>
       <replace>_file</replace>
+      <replace>-</replace>
     </replaceStrings>
   </component>
 </application>
