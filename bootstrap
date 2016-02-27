@@ -2,17 +2,17 @@
 
 . _common.sh
 
-function install_homebrew {
+function install-homebrew {
     log "installing homebrew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || true
 }
 
-function check_xcode_installed {
+function check-xcode-installed {
     log "checking for xcode installation (install via App Store if this fails (or just run git)"
     xcode-select -p
 }
 
-function brew_install_apps {
+function brew-install-apps {
     brew install zsh
     brew install Caskroom/versions/iterm2-beta
     brew install Caskroom/cask/witch
@@ -27,7 +27,7 @@ function brew_install_apps {
     brew install Caskroom/cask/skype
 }
 
-function setup_zsh_shell {
+function setup-zsh-shell {
     log "adding zsh to /etc/shells"
     grep /usr/local/bin/zsh /etc/shells || sudo bash -c "printf '%s\n' "/usr/local/bin/zsh" >> /etc/shells"
 
@@ -35,7 +35,7 @@ function setup_zsh_shell {
     sudo chsh -s /usr/local/bin/zsh $USER
 }
 
-function set_defaults {
+function set-defaults {
     log "setting defaults"
     # faster keybaord
     defaults write NSGlobalDomain InitialKeyRepeat -float 10
@@ -48,7 +48,7 @@ function set_defaults {
     defaults write -g ApplePersistence -bool no
 }
 
-function install_login_script {
+function install-login-script {
     local plist=$( cat ./login.plist | sed 's/$USER/'"$USER"'/' )
     cat > /Users/"$USER"/Library/LaunchAgents/login.plist <<< "$plist"
 }
@@ -59,17 +59,23 @@ function reboot {
     sudo reboot
 }
 
+function configure-git {
+   log "configuring git"
+   git config --global push.default simple
+}
+
 pushd "$this_dir" > /dev/null
 
 log "bootstrapping"
 
 ./setup
-check_xcode_installed
-install_homebrew
-brew_install_apps
-setup_zsh_shell
-install_login_script
-set_defaults
+check-xcode-installed
+configure-git
+install-homebrew
+brew-install-apps
+setup-zsh-shell
+install-login-script
+set-defaults
 reboot
 
 log "bootstrapping complete"
