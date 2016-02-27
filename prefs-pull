@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+. _common.sh
+
+log "pulling preferences"
+
+cd "$this_dir"
+git pull
+
+log "writing idea preferences"
+rsync -azPv \
+    "$this_dir/sync/Preferences/IntellijIdea15/" \
+    "$HOME/Library/Preferences/IntelliJIdea15"
+
+log "writing iterm2 preferences"
+cp "$this_dir/Preferences/com.googlecode.iterm2.plist" "$HOME/LibraryPreferences"
+
+
+log "pulling preferences complete"

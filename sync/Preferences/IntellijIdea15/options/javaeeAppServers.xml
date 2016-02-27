@@ -1,11 +1,5 @@
 <application>
   <component name="AppserversManager">
-    <ServerDK NAME="AppEngine Dev">
-      <option name="SOURCE_INTEGRATION_NAME" value="Google App Engine Dev Server" />
-      <DATA>
-        <sdk-path>$USER_HOME$/app/appengine-java-sdk-1.3.3</sdk-path>
-      </DATA>
-    </ServerDK>
     <LibraryTable>
       <library name="AppEngine Dev">
         <CLASSES>
@@ -18,5 +12,11 @@
         <SOURCES />
       </library>
     </LibraryTable>
+    <ServerDK NAME="AppEngine Dev">
+      <option name="SOURCE_INTEGRATION_NAME" value="Google App Engine Dev Server" />
+      <DATA>
+        <sdk-path>$USER_HOME$/app/appengine-java-sdk-1.3.3</sdk-path>
+      </DATA>
+    </ServerDK>
   </component>
 </application>

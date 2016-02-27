@@ -1,7 +1,7 @@
 <scheme name="Richard - monospaced" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Droid Sans Mono" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="6600" />
     <option name="ANNOTATIONS_COLOR" value="6666ff" />
@@ -482,9 +482,6 @@
         <option name="FOREGROUND" value="ffa400" />
         <option name="FONT_TYPE" value="1" />
       </value>
-    </option>
-    <option name="GString">
-      <value />
     </option>
     <option name="Groovydoc comment">
       <value>

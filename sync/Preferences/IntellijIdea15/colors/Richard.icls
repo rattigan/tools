@@ -1,8 +1,8 @@
 <scheme name="Richard" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="CONSOLE_FONT_NAME" value="Input" />
-  <option name="EDITOR_FONT_NAME" value="Droid Sans Mono" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="d6822" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -1482,36 +1482,12 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="REGEXP.CHAR_CLASS">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="REGEXP.ESC_CHARACTER">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="REGEXP.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="4cd6a3" />
         <option name="BACKGROUND" value="3d0909" />
         <option name="EFFECT_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="REGEXP.META">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="REGEXP.QUOTE_CHARACTER">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REGEXP.REDUNDANT_ESCAPE">

@@ -4,6 +4,7 @@
 
 log "pushing preferences"
 
+log "reading idea preferences"
 rsync -azPv \
     "$HOME/Library/Preferences/IntelliJIdea15/" \
     "$this_dir/sync/Preferences/IntellijIdea15" \
@@ -12,6 +13,9 @@ rsync -azPv \
     --exclude scratches \
     --exclude tasks \
     --exclude options/recentProjects.xml
+
+log "reading iterm2 preferences"
+cp "$HOME/Library/Preferences/com.googlecode.iterm2.plist" "$this_dir/Preferences"
 
 cd "$this_dir"
 git add -A
