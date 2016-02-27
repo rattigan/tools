@@ -13,7 +13,7 @@ rsync -azPv \
     --exclude tasks \
     --exclude options/recentProjects.xml
 
-cd $this_dir/sync
+cd "$this_dir"
 git add -A
 git commit -m "syncing prefs"
 git push
