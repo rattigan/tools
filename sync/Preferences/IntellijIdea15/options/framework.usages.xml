@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="FrameworkUsages">
+    <project id="trunk" frameworks="Web,GWT" />
+    <project id="cognaxis" frameworks="Web,Google App Engine" />
+  </component>
+</application>
+

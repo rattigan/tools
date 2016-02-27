@@ -1,0 +1,243 @@
+<application>
+  <component name="AlternateApplicationComponent">
+    <alternateMappings>
+      <mapping matchExpression="^Test(.*?)\.java$" replaceExpression="$1.java" />
+      <mapping matchExpression="^(.*?)\.java$" replaceExpression="Test$1.java" />
+    </alternateMappings>
+  </component>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Inspections</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="CodeStyleSchemes">
+    <option name="CURRENT_SCHEME_NAME" value="Default (1)" />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CLASSLOADERS" value="true" />
+    <option name="EVALUATION_DIALOG_TYPE" value="EvaluateFragment" />
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
+    <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
+    <option name="WATCH_RETURN_VALUES" value="true" />
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="kotlin.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="Error Report Configurable">
+    <option name="JIRA_LOGIN" value="" />
+    <option name="JIRA_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_JIRA_PASSWORD" value="false" />
+  </component>
+  <component name="ErrorReportConfigurable">
+    <option name="ITN_LOGIN" value="rrattigan" />
+    <option name="ITN_PASSWORD_CRYPT" value="YmVydHJhbmQ=" />
+    <option name="KEEP_ITN_PASSWORD" value="true" />
+    <option name="EMAIL" value="" />
+  </component>
+  <component name="GlobalAntConfiguration">
+    <filtersTableLayout />
+    <propertiesTableLayout />
+  </component>
+  <component name="GwtSdkManager">
+    <gwt-sdk-list>
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.2.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.2.0" />
+      <gwt-sdk url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.2.0" />
+    </gwt-sdk-list>
+  </component>
+  <component name="JetConnect">
+    <setting name="checkPeriod" value="1" />
+  </component>
+  <component name="LocalHistoryConfiguration">
+    <option name="SHOW_CHANGES_ONLY" value="true" />
+  </component>
+  <component name="NativeNeighbourhoodPlugin">
+    <iconsDir value="windows" />
+    <executeWithDefaultAppCommand value="rundll32.exe url.dll,FileProtocolHandler $FilePath$" tokenizerDelims="" />
+    <showInFileManagerCommand value="explorer.exe /select,$FilePath$" tokenizerDelims="" />
+    <openCommandShellInCommand value="cmd /c &quot;$PluginsHome$\NativeNeighbourhood\classes\org\intellij\plugins\nativeNeighbourhood\icons\windows\cmd.bat&quot;" tokenizerDelims="" />
+    <selectInFileManagerName value="Windows Explorer" />
+    <nativeExtensions value="ppt,mdb,exe,vsd,hlp,chm,pdf,lnk,doc,xls" />
+  </component>
+  <component name="PluginManagerConfigurable" proportions="" version="1">
+    <option name="AVAILABLE_SORT_MODE" value="Updated" />
+    <option name="myOutdatedPlugins">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="myInstalledPlugins">
+      <value>
+        <list size="3">
+          <item index="0" class="java.lang.String" itemvalue="IvyDependencyImportor" />
+          <item index="1" class="java.lang.String" itemvalue="BashSupport" />
+          <item index="2" class="java.lang.String" itemvalue="Pythonid" />
+        </list>
+      </value>
+    </option>
+    <available-proportions proportions="" version="1" />
+  </component>
+  <component name="PropertiesSeparatorManager">
+    <file url="file://$USER_HOME$/dev/novartis/ares/ares-server/grails-app/i18n/messages_ru.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/dev/novartis/ares/ares-server/grails-app/i18n/messages_de.properties" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/rattigan/dev/novartis/ares/ares-server/grails-app/i18n/messages" separator="\u002e" />
+    <file url="file://$USER_HOME$/dev/novartis/ares/ares-server/application.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/dev/novartis/ares/ares-server/grails-app/i18n/messages.properties" separator="\u002e" />
+  </component>
+  <component name="PsiViewerSettings">
+    <option name="text" value="package edu.mit.broad.mgg.bioinf;&#10;&#10;public class SequenceLocation {&#10;    private int startPoint;&#10;    private int endPoint;&#10;&#10;    public SequenceLocation() {&#10;    }&#10;&#10;    private SequenceLocation(int startPoint, int endPoint) {&#10;        this.startPoint = startPoint;&#10;        this.endPoint = endPoint;&#10;    }&#10;&#10;    private static SequenceLocation location(int base, int start, int stop) {&#10;//        if (start == stop)&#10;//            throw new SequenceException(&quot;ambiguous direction&quot;);&#10;&#10;        return start &lt; stop ?&#10;                new SequenceLocation(start - base, stop - base + 1) :&#10;                new SequenceLocation(start - base + 1, stop - base);&#10;    }&#10;&#10;    public static SequenceLocation location0(int start, int stop) {&#10;        return location(0, start, stop);&#10;    }&#10;&#10;    public static SequenceLocation location1(int start, int stop) {&#10;        return location(1, start, stop);&#10;    }&#10;&#10;    public static SequenceLocation locationBetween(int startPoint, int endPoint) {&#10;        return new SequenceLocation(startPoint, endPoint);&#10;    }&#10;&#10;    public static SequenceLocation pointLocation(int point) {&#10;        return new SequenceLocation(point, point);&#10;    }&#10;&#10;    public boolean isForward() {&#10;        return startPoint &lt; endPoint;&#10;    }&#10;&#10;    public boolean isPoint() {&#10;        return startPoint == endPoint;&#10;    }&#10;&#10;    public boolean isBackward() {&#10;        return startPoint &gt; endPoint;&#10;    }&#10;&#10;    public boolean equals(Object o) {&#10;        if (this == o) return true;&#10;        if (o == null || getClass() != o.getClass()) return false;&#10;&#10;        SequenceLocation that = (SequenceLocation) o;&#10;&#10;        if (endPoint != that.endPoint) return false;&#10;        if (startPoint != that.startPoint) return false;&#10;&#10;        return true;&#10;    }&#10;&#10;    public int hashCode() {&#10;        int result;&#10;        result = startPoint;&#10;        result = 31 * result + endPoint;&#10;        return result;&#10;    }&#10;&#10;    public int getSize() {&#10;        return size();&#10;    }&#10;    public int size() {&#10;        return Math.abs(endPoint - startPoint);&#10;    }&#10;&#10;    public int getDirection() {&#10;        if (endPoint == startPoint)&#10;            return 0;&#10;        return (endPoint - startPoint) / size();&#10;    }&#10;&#10;    public SequenceLocation normalize(int size) {&#10;        int newStart = (startPoint % size + size) % size;&#10;        return new SequenceLocation(newStart, newStart + size());&#10;    }&#10;&#10;    private int getStart(int base) {&#10;        return (isBackward() ? startPoint - 1 : startPoint) + base;&#10;    }&#10;&#10;    public int getStart0() {&#10;        return getStart(0);&#10;    }&#10;&#10;    public int getStart1() {&#10;        return getStart(1);&#10;    }&#10;&#10;    private int getStop(int base) {&#10;        return (isBackward() ? endPoint : endPoint - 1) + base;&#10;    }&#10;&#10;    public int getStop0() {&#10;        return getStop(0);&#10;    }&#10;&#10;    public int getStop1() {&#10;        return getStop(1);&#10;    }&#10;&#10;    public int getStartPoint() {&#10;        return startPoint;&#10;    }&#10;&#10;    public int getEndPoint() {&#10;        return endPoint;&#10;    }&#10;&#10;    public int getMinPoint() {&#10;        return Math.min(startPoint, endPoint);&#10;    }&#10;&#10;    public int getMaxPoint() {&#10;        return Math.max(startPoint, endPoint);&#10;    }&#10;&#10;    public int getMin0() {&#10;         return Math.min(getStart0(), getStop0());&#10;     }&#10;&#10;     public int getMax0() {&#10;         return Math.max(getStart0(), getStop0());&#10;     }&#10;&#10;    public int getMin1() {&#10;         return Math.min(getStart1(), getStop1());&#10;     }&#10;&#10;     public int getMax1() {&#10;         return Math.max(getStart1(), getStop1());&#10;     }&#10;    public SequenceLocation getForward() {&#10;        return isBackward() ? getReverse() : this;&#10;    }&#10;&#10;    public SequenceLocation getBackward() {&#10;        return isForward() ? getReverse() : this;&#10;    }&#10;&#10;    public SequenceLocation getReverse() {&#10;        return new SequenceLocation(endPoint, startPoint);&#10;    }&#10;&#10;    public boolean isOverlapping(SequenceLocation location, int circularSize) {&#10;        return getMinPoint() &lt; location.getMaxPoint() &amp;&amp; getMaxPoint() &gt; location.getMinPoint() ||&#10;                getMinPoint() + circularSize &lt; location.getMaxPoint() &amp;&amp; getMaxPoint() + circularSize &gt; location.getMinPoint() ||&#10;                getMinPoint() &lt; location.getMaxPoint() + circularSize &amp;&amp; getMaxPoint() &gt; location.getMinPoint() + circularSize;&#10;    }&#10;&#10;    public boolean isOverlapping(SequenceLocation location) {&#10;        return getMinPoint() &lt; location.getMaxPoint() &amp;&amp;&#10;                getMaxPoint() &gt; location.getMinPoint();&#10;    }&#10;&#10;    public boolean isTouching(SequenceLocation location, int circularSize) {&#10;        return getMinPoint() &lt;= location.getMaxPoint() &amp;&amp; getMaxPoint() &gt;= location.getMinPoint() ||&#10;                getMinPoint() + circularSize &lt;= location.getMaxPoint() &amp;&amp; getMaxPoint() + circularSize &gt;= location.getMinPoint() ||&#10;                getMinPoint() &lt;= location.getMaxPoint() + circularSize &amp;&amp; getMaxPoint() &gt;= location.getMinPoint() + circularSize;&#10;    }&#10;&#10;    public boolean isTouching(SequenceLocation location) {&#10;        return getMinPoint() &lt;= location.getMaxPoint() &amp;&amp;&#10;                getMaxPoint() &gt;= location.getMinPoint();&#10;    }&#10;&#10;&#10;    public SequenceLocation intersect(SequenceLocation location) {&#10;        SequenceLocation intersection = new SequenceLocation(&#10;                Math.max(this.getMinPoint(), location.getMinPoint()),&#10;                Math.min(this.getMaxPoint(), location.getMaxPoint()));&#10;        if (intersection.isForward())&#10;            return intersection;&#10;        return new SequenceLocation(location.getMinPoint(), location.getMinPoint());&#10;    }&#10;&#10;    public SequenceLocation translate(int distance) {&#10;        return new SequenceLocation(startPoint + distance, endPoint + distance);&#10;    }&#10;&#10;    public String toString() {&#10;        if (isPoint())&#10;            return String.valueOf(getStop1()) + &quot;|&quot; + getStart1();&#10;        if (isForward()) {&#10;            if (size() == 1) {&#10;                return String.valueOf(getStart1());&#10;            } else {&#10;                return String.valueOf(getStart1()) + &quot;-&gt;&quot; + getStop1();&#10;            }&#10;        } else {&#10;            if (size() == 1) {&#10;                return String.valueOf(getStart1());&#10;            } else {&#10;                return String.valueOf(getStop1()) + &quot;&lt;-&quot; + getStart1();&#10;            }&#10;        }&#10;    }&#10;&#10;    public String toStringDirectionless() {&#10;        if (isPoint())&#10;            return String.valueOf(getStop1()) + &quot;|&quot; + getStart1();&#10;        if (isForward()) {&#10;            if (size() == 1) {&#10;                return String.valueOf(getStart1());&#10;            } else {&#10;                return String.valueOf(getStart1()) + &quot;-&quot; + getStop1();&#10;            }&#10;        } else {&#10;            if (size() == 1) {&#10;                return String.valueOf(getStart1());&#10;            } else {&#10;                return String.valueOf(getStop1()) + &quot;-&quot; + getStart1();&#10;            }&#10;        }&#10;    }&#10;&#10;    public boolean isInside(SequenceLocation location) {&#10;        return getMinPoint() &gt;= location.getMinPoint() &amp;&amp; getMaxPoint() &lt;= location.getMaxPoint();&#10;    }&#10;&#10;    public SequenceLocation before(int size) {&#10;        return new SequenceLocation(getStartPoint() - size * getDirection(), getStartPoint());&#10;    }&#10;&#10;    public SequenceLocation after(int size) {&#10;        return new SequenceLocation(getEndPoint(), getEndPoint() + size * getDirection());&#10;    }&#10;&#10;    public SequenceLocation first(int size) {&#10;        return new SequenceLocation(getStartPoint(), getStartPoint() + size * getDirection());&#10;    }&#10;&#10;    public SequenceLocation last(int size) {&#10;        return new SequenceLocation(getEndPoint() - size * getDirection(), getEndPoint());&#10;    }&#10;    &#10;    public SequenceLocation expand(int distance) {&#10;        return new SequenceLocation(getStartPoint() - distance * getDirection(), getEndPoint() + distance * getDirection());&#10;    }&#10;&#10;    public SequenceLocation expand(int start, int end) {&#10;        return new SequenceLocation(getStartPoint() - start* getDirection(), getEndPoint() + end * getDirection());&#10;    }&#10;    public SequenceLocation shrink(int distance) {&#10;        // TODO could shrink past zero&#10;        return expand(-distance);&#10;    }&#10;&#10;    public SequenceLocation shrink(int start, int end) {&#10;        return expand(-start, -end);&#10;    }&#10;&#10;    public double getMidPoint() {&#10;        return (startPoint + endPoint) / 2d;&#10;    }&#10;&#10;    public int getPosition(int point) {&#10;        return (point - getStartPoint())*getDirection();&#10;    }&#10;&#10;&#10;}&#10;" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/dev/richard/python/test/bin/python" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_METHOD" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FIELD" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_METHOD" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_VARIABLE" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="MOVE_SEARCH_FOR_TEXT" value="false" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="INLINE_METHOD_THIS" value="true" />
+    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+  <component name="SelectProjectTemplateSettings">
+    <option name="EXPERT_MODE" value="true" />
+    <option name="LAST_TEMPLATE" value="Static Web/Web" />
+  </component>
+  <component name="Struts Assistant">
+    <option name="autoscrollToSource" value="false" />
+    <option name="autoscrollFromSource" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://svn.broadinstitute.org/bcbsoftware" />
+        <option value="https://svn.broadinstitute.org/mgglims" />
+        <option value="https://svn.broadinstitute.org/mammals" />
+        <option value="https://svn.velir.com/svn/brookings-ipad/" />
+        <option value="svn+ssh://4183@rsync/data1/home/4874/svn_repo" />
+        <option value="https://svn.broadinstitute.org/rnai" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://svn.broadinstitute.org/bcbsoftware" />
+        <option value="https://svn.broadinstitute.org/mgglims" />
+        <option value="https://svn.broadinstitute.org/mammals" />
+        <option value="https://svn.velir.com/svn/brookings-ipad/" />
+        <option value="svn+ssh://4183@rsync/data1/home/4874/svn_repo" />
+        <option value="svn+sshn://4183@rsync/data1/home/4874/svn_repo" />
+        <option value="svn+sshn://rsync-svn/data1/home/4874/svn_repo" />
+        <option value="svn+ssh://rsync-svn/data1/home/4874/svn_repo" />
+        <option value="svn+ssh://rsync/data1/home/4874/svn_repo" />
+        <option value="https://svn.broadinstitute.org/rnai" />
+        <option value="svn+ssh://usw-s004.rsync.net/svn_repo" />
+        <option value="svn+ssh://rsync/svn_repo" />
+        <option value="http://svn.broadinstitute.org/fds" />
+        <option value="http://svn.broadinstitute.org/mgglims" />
+        <option value="http://svn.broad.mit.edu/mgglims" />
+      </list>
+    </option>
+  </component>
+  <component name="SystemNotifications">
+    <option name="NOTIFICATIONS">
+      <set>
+        <option value="Compiler" />
+        <option value="Compiler (errors)" />
+        <option value="Compiler (success)" />
+        <option value="VCS Commit" />
+        <option value="VCS Update" />
+      </set>
+    </option>
+  </component>
+  <component name="WebServicesPluginSettings" WebServicesUrlPathPrefix="/services" PathToXmlBeans="$USER_HOME$/Library/Caches/IntelliJIdea11/webservices/xmlbeans-2.3.0" ASK_TO_INSTALL_SOAPUI="true" />
+  <component name="XPathView.XPathViewPlugin">
+    <option name="attributes">
+      <TextAttributes />
+    </option>
+    <option name="contextAttributes">
+      <TextAttributes />
+    </option>
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl">
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="tapestry:parameter" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Ignore spaces" />
+  <component name="com.intellij.psi.impl.source.codeStyle.CodeStyleSchemesImpl">
+    <option name="CURRENT_SCHEME_NAME" value="Default (2)" />
+  </component>
+  <component name="mvcRunTargetHistory">
+    <option value="#" />
+    <option value="test-app" />
+  </component>
+</application>

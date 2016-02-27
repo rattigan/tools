@@ -1,0 +1,68 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>close()</find>
+      <find>close</find>
+      <find>log</find>
+      <find>//log.err</find>
+      <find>//log.info</find>
+      <find>threadPool</find>
+      <find>ili</find>
+      <find>55912</find>
+      <find>synchroni</find>
+      <find>addValue</find>
+      <find>l</find>
+      <find>buffer</find>
+      <find>/100</find>
+      <find>&amp; 0xffL</find>
+      <find>then +=</find>
+      <find>;</find>
+      <find>writelong</find>
+      <find>getLong</find>
+      <find>b</find>
+      <find>putLong</find>
+      <find>off</find>
+      <find>write</find>
+      <find>copy</find>
+      <find>copy(</find>
+      <find>copyTo</find>
+      <find>bytesRead</find>
+      <find>sleep</find>
+      <find>trap</find>
+      <find>trap_off</find>
+      <find>_dir</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>this</replace>
+      <replace>public</replace>
+      <replace>BuiltIns</replace>
+      <replace>def</replace>
+      <replace>(==</replace>
+      <replace>fn</replace>
+      <replace>defmacro</replace>
+      <replace>y</replace>
+      <replace>horizontal</replace>
+      <replace>//System</replace>
+      <replace>System</replace>
+      <replace>bg_</replace>
+      <replace>_light=</replace>
+      <replace>white</replace>
+      <replace>purple</replace>
+      <replace>' \\\n'</replace>
+      <replace>foreground_color</replace>
+      <replace>foreground_color_label</replace>
+      <replace>background_color</replace>
+      <replace>=</replace>
+      <replace>Vow</replace>
+      <replace>//log</replace>
+      <replace>log.err</replace>
+      <replace>if (debug) log.info</replace>
+      <replace>executorService</replace>
+      <replace>L</replace>
+      <replace>(long)buffer</replace>
+      <replace>|</replace>
+      <replace>buffer</replace>
+      <replace>_file</replace>
+    </replaceStrings>
+  </component>
+</application>

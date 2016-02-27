@@ -1,0 +1,21 @@
+<templateSet group="gwt">
+  <template name="ita" value="for(int $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.size(); $INDEX$++) {&#10;  $ELEMENT_TYPE$ $VAR$ = $ARRAY$.get($INDEX$);&#10;  $END$&#10;}" description="Iterate a collection" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="suggestIndexName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="variableOfType(&quot;gwt.edu.mit.broad.mgg.common.client.util.JavaScriptArray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELEMENT_TYPE" expression="rightSideType()" defaultValue="&quot;Object&quot;" alwaysStopAt="false" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+. _common.sh
+
+log "pushing preferences"
+
+rsync -azPv \
+    "$HOME/Library/Preferences/IntelliJIdea15/" \
+    "$this_dir/sync/Preferences/IntellijIdea15" \
+    --exclude chrome-user-data \
+    --exclude componentVersions \
+    --exclude scratches \
+    --exclude tasks \
+    --exclude options/recentProjects.xml
+
+cd $this_dir/sync
+git add -A
+git commit -m "syncing prefs"
+git push
+
+log "pushing preferences complete"

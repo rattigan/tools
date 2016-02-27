@@ -1,0 +1,70 @@
+<keymap version="1" name="Richard2" parent="Mac OS X 10.5+">
+  <action id=":plugin.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="shift meta alt 9" />
+  </action>
+  <action id=":plugin.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="shift meta alt 0" />
+  </action>
+  <action id=":plugin.actions.paredit/close-curly-and-newline">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt close_bracket" />
+  </action>
+  <action id=":plugin.actions.paredit/close-paren-and-newline">
+    <keyboard-shortcut first-keystroke="ctrl meta alt 0" />
+  </action>
+  <action id=":plugin.actions.paredit/close-square-and-newline">
+    <keyboard-shortcut first-keystroke="ctrl meta alt close_bracket" />
+  </action>
+  <action id=":plugin.actions.paredit/raise">
+    <keyboard-shortcut first-keystroke="shift meta back_slash" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="meta alt 9" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="meta alt 0" />
+  </action>
+  <action id=":plugin.actions.paredit/splice">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-curly">
+    <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-paren">
+    <keyboard-shortcut first-keystroke="shift ctrl 9" />
+    <keyboard-shortcut first-keystroke="ctrl alt 9" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-quotes">
+    <keyboard-shortcut first-keystroke="shift ctrl alt quote" />
+  </action>
+  <action id=":plugin.actions.paredit/wrap-square">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="EditorChooseLookupItem" />
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift meta f12" />
+    <keyboard-shortcut first-keystroke="meta alt tab" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="ToggleBookmark9" />
+</keymap>

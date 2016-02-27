@@ -1,0 +1,25 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <pluginHosts>
+      <item value="http://cursiveclojure.com/plugins-13.1.xml" />
+    </pluginHosts>
+    <knownUpdateChannels>
+      <item value="IDEA12" />
+      <item value="IDEA13.1" />
+      <item value="IDEA14.1" />
+      <item value="IDEA_15_EAP" />
+      <item value="IDEA_EAP" />
+      <item value="IDEA_Beta" />
+      <item value="IDEA_Release" />
+    </knownUpdateChannels>
+    <ignoredBuildNumbers>
+      <item value="130.1486" />
+      <item value="138.777" />
+      <item value="138.1503" />
+      <item value="143.1653" />
+    </ignoredBuildNumbers>
+    <option name="LAST_TIME_CHECKED" value="1455581372930" />
+    <option name="LAST_BUILD_CHECKED" value="IU-143.1184" />
+    <option name="UPDATE_CHANNEL_TYPE" value="milestone" />
+  </component>
+</application>

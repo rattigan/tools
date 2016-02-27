@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomizableActionsSchemas">
+    <group value="NativeNeighbourhood.ShellAction" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NativeNeighbourhood.ShowAction" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NativeNeighbourhood.StartAction" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ThePlugin.JiraIssues.QuickSearch" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ThePlugin.JiraIssues.CreateIssue" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ThePlugin.Reviews.QuickSearch" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ThePlugin.ActiveTaskBar.ShowActiveJiraIssue" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ThePlugin.ActiveTaskBar.OpenActiveJiraIssue" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ThePlugin.ActiveTaskBar.DeactivateJiraIssue" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ThePlugin.ActiveTaskBar.ActiveIssueLogWork" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ThePlugin.ActiveTaskBar.ActiveIssueComment" is_action="true" action_type="1" position="8">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+  </component>
+</application>
+

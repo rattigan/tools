@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="Oracle" injector-id="java">
+      <display-name>Sql.getTable (util.sql)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("getTable").withParameters("java.sql.Connection", "java.lang.String", "util.sql.StatementBinder").definedInClass("util.sql.Sql"))]]></place>
+    </injection>
+  </component>
+</application>
+

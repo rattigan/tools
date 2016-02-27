@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="WebBrowsersConfiguration">
+    <browser family="SAFARI" path="Safari" active="true" />
+    <browser family="EXPLORER" path="" active="false" />
+    <browser family="CHROME" path="/Applications/Google Chrome.app" active="true">
+      <settings>
+        <command-line-options>--args --disable-web-security --incognito</command-line-options>
+        <use-custom-profile>true</use-custom-profile>
+        <user-data-dir>$USER_HOME$/Library/Preferences/IntelliJIdea12/chrome-user-data</user-data-dir>
+      </settings>
+    </browser>
+    <browser family="OPERA" path="Opera" active="true" />
+    <browser family="FIREFOX" path="Firefox" active="true" />
+  </component>
+</application>
+

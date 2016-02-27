@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="LeiningenRunnerSettings">
+    <option name="leiningenPath" value="$USER_HOME$/homebrew/Cellar/leiningen/2.3.4/bin/lein" />
+    <option name="leiningenHome" value="$USER_HOME$/.lein" />
+    <option name="leiningenJar" value="$USER_HOME$/.lein/self-installs/leiningen-1.6.1.1-standalone.jar" />
+  </component>
+</application>
+

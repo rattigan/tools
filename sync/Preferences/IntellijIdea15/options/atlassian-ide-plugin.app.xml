@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="atlassian-ide-plugin">
+    <option name="JIRAConfigurationData">
+      <JiraConfigurationBean>
+        <option name="pageSize" value="200" />
+      </JiraConfigurationBean>
+    </option>
+    <option name="bambooConfigurationData">
+      <BambooConfigurationBean>
+        <option name="bambooTooltipOption" value="All build failures and first build success" />
+      </BambooConfigurationBean>
+    </option>
+    <option name="crucibleConfigurationData">
+      <CrucibleConfigurationBean>
+        <option name="crucibleTooltipOption" value="Unread reviews exist" />
+      </CrucibleConfigurationBean>
+    </option>
+    <option name="generalConfigurationData">
+      <GeneralConfigurationBean>
+        <option name="anonymousEnhancedFeedbackEnabled" value="false" />
+        <option name="certs">
+          <set>
+            <option value="[&#10;[&#10;  Version: V3&#10;  Subject: CN=confluence.broadinstitute.org, OU=Secure Link SSL, OU=Research Computing, O=Broad Institute, STREET=7 Cambridge Center, L=Cambridge, ST=MA, OID.2.5.4.17=02142, C=US&#10;  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5&#10;&#10;  Key:  Sun RSA public key, 2048 bits&#10;  modulus: 26308381206285470655787424829969415715270675153099645333158513622111191620524393816103313610333680937986136118086686212713708476535405774922734030072367071531474690070440608548661802559779976619647488415520425882947536244935814782286318093687944249197005847784486419862298304171519906337296382960110880183977893033254085306389098139742062133169852889605647251685778287482690093153455823302181533677070629787582806428824043995035036725665510439353644585381510824575847157873476711161790193861916695566266678367220225032780626880911404705238920143430937188499014331639854372252658322309242362582892931810829301603918097&#10;  public exponent: 65537&#10;  Validity: [From: Wed Apr 06 20:00:00 EDT 2011,&#10;               To: Sat Apr 07 19:59:59 EDT 2012]&#10;  Issuer: CN=Network Solutions Certificate Authority, O=Network Solutions L.L.C., C=US&#10;  SerialNumber: [    430ac435 bda04f70 95294c4c c05a44e3]&#10;&#10;Certificate Extensions: 9&#10;[1]: ObjectId: 2.5.29.17 Criticality=false&#10;SubjectAlternativeName [&#10;  DNSName: confluence.broadinstitute.org&#10;]&#10;&#10;[2]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false&#10;AuthorityInfoAccess [&#10;  [&#10;   accessMethod: 1.3.6.1.5.5.7.48.2&#10;   accessLocation: URIName: http://www.netsolssl.com/NetworkSolutions_CA.crt, &#10;   accessMethod: 1.3.6.1.5.5.7.48.1&#10;   accessLocation: URIName: http://ocsp.netsolssl.com]&#10;]&#10;&#10;[3]: ObjectId: 2.5.29.35 Criticality=false&#10;AuthorityKeyIdentifier [&#10;KeyIdentifier [&#10;0000: 3C 41 E2 8F 08 08 A9 4C   25 89 8D 6D C5 38 D0 FC  &lt;A.....L%..m.8..&#10;0010: 85 8C 62 17                                        ..b.&#10;]&#10;&#10;]&#10;&#10;[4]: ObjectId: 2.5.29.14 Criticality=false&#10;SubjectKeyIdentifier [&#10;KeyIdentifier [&#10;0000: 15 E4 D2 39 65 A8 08 BA   90 E0 C1 55 0C 3F B1 01  ...9e......U.?..&#10;0010: 8A 3D 02 2E                                        .=..&#10;]&#10;]&#10;&#10;[5]: ObjectId: 2.5.29.32 Criticality=false&#10;CertificatePolicies [&#10;  [CertificatePolicyId: [1.3.6.1.4.1.782.1.2.1.3.1]&#10;[PolicyQualifierInfo: [&#10;  qualifierID: 1.3.6.1.5.5.7.2.1&#10;  qualifier: 0000: 16 42 68 74 74 70 3A 2F   2F 77 77 77 2E 6E 65 74  .Bhttp://www.net&#10;0010: 77 6F 72 6B 73 6F 6C 75   74 69 6F 6E 73 2E 63 6F  worksolutions.co&#10;0020: 6D 2F 6C 65 67 61 6C 2F   53 53 4C 2D 6C 65 67 61  m/legal/SSL-lega&#10;0030: 6C 2D 72 65 70 6F 73 69   74 6F 72 79 2D 63 70 73  l-repository-cps&#10;0040: 2E 6A 73 70                                        .jsp&#10;&#10;]]  ]&#10;]&#10;&#10;[6]: ObjectId: 2.5.29.19 Criticality=true&#10;BasicConstraints:[&#10;  CA:false&#10;  PathLen: undefined&#10;]&#10;&#10;[7]: ObjectId: 2.5.29.37 Criticality=false&#10;ExtendedKeyUsages [&#10;  serverAuth&#10;  clientAuth&#10;]&#10;&#10;[8]: ObjectId: 2.5.29.31 Criticality=false&#10;CRLDistributionPoints [&#10;  [DistributionPoint:&#10;     [URIName: http://crl.netsolssl.com/NetworkSolutions_CA.crl]&#10;, DistributionPoint:&#10;     [URIName: http://crl2.netsolssl.com/NetworkSolutions_CA.crl]&#10;]]&#10;&#10;[9]: ObjectId: 2.5.29.15 Criticality=true&#10;KeyUsage [&#10;  DigitalSignature&#10;  Key_Encipherment&#10;]&#10;&#10;]&#10;  Algorithm: [SHA1withRSA]&#10;  Signature:&#10;0000: 9C 2F 51 F6 1B 53 96 FE   31 C1 F5 B7 69 68 A3 AD  ./Q..S..1...ih..&#10;0010: A5 46 1E 5B E4 0B 2E F2   DD 03 70 01 8D E9 1D CC  .F.[......p.....&#10;0020: 86 81 76 85 28 21 E0 82   BD F2 F5 3D 97 E4 7F 4F  ..v.(!.....=...O&#10;0030: 7F 71 6C 41 43 5E DC AA   CC B5 A2 67 2B 24 B3 91  .qlAC^.....g+$..&#10;0040: 45 71 8D AF CD CA 49 A6   47 61 25 23 07 54 CB FC  Eq....I.Ga%#.T..&#10;0050: 0E 92 B5 71 16 93 0C 1A   B0 40 47 DA 72 3C 2E 95  ...q.....@G.r&lt;..&#10;0060: 56 E7 AF 67 4B 27 5A 58   24 F6 A2 4C 75 B5 56 A0  V..gK'ZX$..Lu.V.&#10;0070: CC CA 49 13 F6 3A E9 C9   EA EC EE 89 53 A7 93 4B  ..I..:......S..K&#10;0080: 1A 77 84 9F 7D B5 EA FD   4C 87 F4 EA C4 B5 F1 E3  .w......L.......&#10;0090: E6 51 4A 76 C0 F9 71 74   FB B2 5B B4 C6 30 BB 27  .QJv..qt..[..0.'&#10;00A0: E5 8F 4B 6E 20 F5 68 02   2D B9 8A 7C 42 A3 54 37  ..Kn .h.-...B.T7&#10;00B0: A6 D4 EC CA E4 D8 DB 32   B5 BE 94 9C 92 DC A0 0E  .......2........&#10;00C0: 09 BD 62 33 85 61 A1 29   B7 95 A5 F7 E8 E1 C0 85  ..b3.a.)........&#10;00D0: 79 10 F5 68 8B 97 81 00   5F 79 AD 43 02 4C 7D E0  y..h...._y.C.L..&#10;00E0: E0 EE C5 6D 8A C0 FD 69   0F 93 27 82 BC 8E 62 C9  ...m...i..'...b.&#10;00F0: F5 91 32 35 D9 4D 95 69   A6 21 E3 69 F2 1C E7 DB  ..25.M.i.!.i....&#10;&#10;]" />
+          </set>
+        </option>
+        <option name="checkNowButtonOption" value="STABLE_AND_SNAPSHOT" />
+        <option name="statsCountersMap">
+          <map>
+            <entry key="a" value="0" />
+            <entry key="b" value="0" />
+            <entry key="i" value="0" />
+            <entry key="r" value="0" />
+          </map>
+        </option>
+        <option name="uid" value="1287770871147" />
+      </GeneralConfigurationBean>
+    </option>
+  </component>
+</application>
+
