@@ -2,6 +2,7 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex" />
         <option value="java.class.fqn" />
         <option value="java.class.shortname" />
         <option value="java.method.parameter.types" />
@@ -20,7 +21,6 @@
         <option value="Scss.variable" />
         <option value="Less.variables" />
         <option value="Less.mixins" />
-        <option value="org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex" />
@@ -66,6 +66,13 @@
         <option value="JS.class.super" />
         <option value="js.element.qualifiedName" />
         <option value="js.qualified.shortName" />
+        <option value="bash.var" />
+        <option value="bash.vardef" />
+        <option value="bash.scriptCommandReference" />
+        <option value="bash.includers" />
+        <option value="bash.included" />
+        <option value="bash.script.name" />
+        <option value="bash.function.name" />
         <option value="sql.names" />
         <option value="sql.column.name" />
         <option value="sql.table.shortName" />

@@ -2,13 +2,15 @@
   <component name="FileTypeManager" version="16">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern=".zprestorc" type="Bash" />
+      <mapping pattern=".zshrc" type="Bash" />
+      <mapping pattern=".zprestotheme" type="Bash" />
       <removed_mapping ext="h" type="C++" />
       <mapping ext="ttf" type="Native" />
-      <mapping ext="stylus" type="PLAIN_TEXT" />
       <mapping ext="so" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="stylus" type="PLAIN_TEXT" />
       <removed_mapping ext="so" type="UNKNOWN" />
-      <mapping pattern=".zshrc" type="Bash" />
     </extensionMap>
   </component>
 </application>

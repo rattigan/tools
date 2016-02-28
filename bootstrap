@@ -2,6 +2,14 @@
 
 . _common.sh
 
+function request-sudo {
+    log "requesting sudo"
+    sudo -v
+
+    # Keep-alive: update existing `sudo` time stamp until `.osx` has finished
+    while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+}
+
 function install-homebrew {
     log "installing homebrew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || true
@@ -14,6 +22,7 @@ function check-xcode-installed {
 
 function brew-install-apps {
     brew install zsh
+    brew install bash
     brew install Caskroom/versions/iterm2-beta
     brew install Caskroom/cask/witch
     brew install Caskroom/cask/bettertouchtool
@@ -27,13 +36,34 @@ function brew-install-apps {
     brew install Caskroom/cask/skype
 }
 
-function setup-zsh-shell {
+function install-powerline-fonts {
+    mkdir -p tmp
+    git clone https://github.com/powerline/fonts.git tmp/powerline
+    tmp/powerline/install.sh
+}
+
+function set-zsh-as-default-shell {
     log "adding zsh to /etc/shells"
     grep /usr/local/bin/zsh /etc/shells || sudo bash -c "printf '%s\n' "/usr/local/bin/zsh" >> /etc/shells"
 
     log "setting default shell"
     sudo chsh -s /usr/local/bin/zsh $USER
 }
+
+function configure-prezto {
+    log "configuring prezto"
+    git clone --recursive https://github.com/sorin-ionescu/prezto.git "$HOME/.zprezto"
+    zsh << EOF
+    trap - ERR
+    setopt EXTENDED_GLOB
+    for rcfile in "\$HOME"/.zprezto/runcoms/^(README.md(.N)); do
+        ln -s "\$rcfile" "\$HOME/.\${rcfile:t}"
+    done
+EOF
+    trap-on
+}
+
+
 
 function set-defaults {
     log "setting defaults"
@@ -68,14 +98,17 @@ pushd "$this_dir" > /dev/null
 
 log "bootstrapping"
 
+request-sudo
 ./setup
-check-xcode-installed
-configure-git
-install-homebrew
-brew-install-apps
-setup-zsh-shell
-install-login-script
-set-defaults
-reboot
+#check-xcode-installed
+#configure-git
+#install-homebrew
+#brew-install-apps
+#set-zsh-as-default-shell
+install-powerline-fonts
+configure-prezto
+#install-login-script
+#set-defaults
+#reboot
 
 log "bootstrapping complete"

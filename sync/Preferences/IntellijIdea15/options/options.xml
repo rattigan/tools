@@ -88,7 +88,7 @@
     <property name="ExpandEnvironmentPanel" value="true" />
     <property name="lastNotifiedMaintenanceExpiring" value="1415552089344" />
     <property name="decompiler.legal.notice.accepted" value="true" />
-    <property name="fileTypeChangedCounter" value="27" />
+    <property name="fileTypeChangedCounter" value="29" />
     <property name="evlsprt3.IU-140.2683" value="10" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 2.7.6 (/usr/bin/python)" />
     <property name="DEVKIT_SANDBOX_HISTORY" value="$USER_HOME$/Library/Caches/IntelliJIdea90/plugins-sandbox" />

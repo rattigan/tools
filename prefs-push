@@ -17,6 +17,9 @@ rsync -azPv \
 log "reading iterm2 preferences"
 cp "$HOME/Library/Preferences/com.googlecode.iterm2.plist" "$this_dir/sync/Preferences"
 
+log "reading bettertouchtool preferences"
+cp "$HOME/Library/Preferences/com.hegenberg.BetterTouchTool.plist" "$this_dir/sync/Preferences"
+
 cd "$this_dir"
 git add -A
 git commit -m "syncing prefs"
