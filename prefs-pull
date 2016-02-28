@@ -13,6 +13,8 @@ rsync -azPv \
     "$HOME/Library/Preferences/IntelliJIdea15"
 
 log "writing preferences"
-cp "$this_dir/sync/Preferences/*.plist" "$HOME/Library/Preferences"
+
+killall cfprefsd
+cp "$this_dir/sync/Preferences"/*.plist "$HOME/Library/Preferences"
 
 log "pulling preferences complete"
