@@ -46,6 +46,10 @@ function set-defaults {
 
     # stop apps reopening on reboot
     defaults write -g ApplePersistence -bool no
+
+    # stop iterm prompting on exit
+    defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
 }
 
 function install-login-script {
