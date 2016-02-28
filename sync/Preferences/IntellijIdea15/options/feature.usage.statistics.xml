@@ -11,7 +11,7 @@
     <feature id="navigation.popup.symbol" count="47" last-shown="0" last-used="1455473551254" shown-count="0" />
     <feature id="find.recent.search" count="6" last-shown="0" last-used="1341873449838" shown-count="0" />
     <feature id="editing.completion.replace" count="1241" last-shown="0" last-used="1456114220748" shown-count="0" />
-    <feature id="switcher" count="16432" last-shown="0" last-used="1456619263475" shown-count="0" />
+    <feature id="switcher" count="16437" last-shown="0" last-used="1456628207036" shown-count="0" />
     <feature id="codeassists.complete.statement" count="1540" last-shown="0" last-used="1456110226957" shown-count="0" />
     <feature id="navigation.goto.inspection" count="7" last-shown="1308843958636" last-used="1405955731335" shown-count="6" />
     <feature id="editing.completion.variable.name" count="2808" last-shown="1288709197913" last-used="1445214490519" shown-count="6" />
@@ -46,7 +46,7 @@
     <feature id="editing.completion.second.smarttype.toar" count="0" last-shown="1401984807828" last-used="0" shown-count="2" />
     <feature id="navigation.popup.camelprefix" count="456" last-shown="1284741708824" last-used="1456611568798" shown-count="1" />
     <feature id="SearchEverywhere" count="31" last-shown="0" last-used="1456433691400" shown-count="0" />
-    <feature id="navigation.popup.class" count="1467" last-shown="0" last-used="1456619165155" shown-count="0" />
+    <feature id="navigation.popup.class" count="1468" last-shown="0" last-used="1456627978674" shown-count="0" />
     <feature id="codeassists.highlight.throws" count="181" last-shown="0" last-used="1456116077372" shown-count="0" />
     <feature id="db.table.editor.wrapper" count="14" last-shown="0" last-used="1422763590540" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="3" last-shown="1456114219552" last-used="1334416447407" shown-count="896" />

@@ -16,5 +16,6 @@ log "writing preferences"
 
 killall cfprefsd
 cp "$this_dir/sync/Preferences"/*.plist "$HOME/Library/Preferences"
+cp "$this_dir/sync/Preferences/bttdata2" "$HOME/Library/Application Support/BetterTouchTool/bttdata2"
 
 log "pulling preferences complete"

@@ -19,6 +19,7 @@ cp "$HOME/Library/Preferences/com.googlecode.iterm2.plist" "$this_dir/sync/Prefe
 
 log "reading bettertouchtool preferences"
 cp "$HOME/Library/Preferences/com.hegenberg.BetterTouchTool.plist" "$this_dir/sync/Preferences"
+cp "$HOME/Library/Application Support/BetterTouchTool/bttdata2" "$this_dir/sync/Preferences"
 
 cd "$this_dir"
 git add -A
