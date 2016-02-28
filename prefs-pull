@@ -12,8 +12,7 @@ rsync -azPv \
     "$this_dir/sync/Preferences/IntellijIdea15/" \
     "$HOME/Library/Preferences/IntelliJIdea15"
 
-log "writing iterm2 preferences"
-cp "$this_dir/sync/Preferences/com.googlecode.iterm2.plist" "$HOME/Library/Preferences"
-
+log "writing preferences"
+cp "$this_dir/sync/Preferences/*.plist" "$HOME/Library/Preferences"
 
 log "pulling preferences complete"

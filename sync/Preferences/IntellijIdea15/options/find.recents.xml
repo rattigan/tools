@@ -1,10 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>close</find>
-      <find>log</find>
-      <find>//log.err</find>
-      <find>//log.info</find>
       <find>threadPool</find>
       <find>ili</find>
       <find>55912</find>
@@ -31,9 +27,12 @@
       <find>trap_off</find>
       <find>_dir</find>
       <find>_</find>
+      <find>trap_on</find>
+      <find>log_color</find>
+      <find>theme</find>
+      <find>#</find>
     </findStrings>
     <replaceStrings>
-      <replace>public</replace>
       <replace>BuiltIns</replace>
       <replace>def</replace>
       <replace>(==</replace>
@@ -63,6 +62,7 @@
       <replace>buffer</replace>
       <replace>_file</replace>
       <replace>-</replace>
+      <replace>#</replace>
     </replaceStrings>
   </component>
 </application>

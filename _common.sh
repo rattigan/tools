@@ -37,10 +37,10 @@ color_reset='\e[0m'    # Text Reset
 _log_color="$color_cyan"
 _log_color_light="$color_light_cyan"
 function log {
-    log_color "${log_color_dark}" "$@"
+    log-color "${log_color_dark}" "$@"
 }
 
-function log_color {
+function log-color {
     local timestamp=$( date +%H:%M:%S )
     local color=$1
     shift
@@ -51,17 +51,17 @@ function log_color {
 # bash settings
 set -o pipefail
 
-function _on_error {
+function _on-error {
     local file=$1
     local line=$2
     local exit_code=$3
-    log_color "$color_red" "ERROR: exit code $exit_code at $file:$line
+    log-color "$color_red" "ERROR: exit code $exit_code at $file:$line
     $( cat "$1"  | sed "${line}q;d" )"
     exit $?
 }
 
-function trap_on {
-    trap '_on_error "$BASH_SOURCE" "$LINENO" "$?"' ERR
+function trap-on {
+    trap '_on-error "$BASH_SOURCE" "$LINENO" "$?"' ERR
 }
 
-trap_on
+trap-on
