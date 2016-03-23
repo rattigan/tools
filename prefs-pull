@@ -7,7 +7,7 @@ if [ "$GIT_PULL_COMPLETE" != true ]; then
     log "pulling preferences"
     git pull
     export GIT_PULL_COMPLETE=true
-    eval ./"$0"
+    eval "$0"
 else
     log "writing idea preferences"
     rsync -azPv \
