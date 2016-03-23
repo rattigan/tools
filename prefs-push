@@ -6,8 +6,8 @@ log "pushing preferences"
 
 log "reading idea preferences"
 rsync -azPv \
-    "$HOME/Library/Preferences/IntelliJIdea15/" \
-    "$this_dir/sync/Preferences/IntellijIdea15" \
+    "$HOME/Library/Preferences/IntelliJIdea2016.1/" \
+    "$this_dir/sync/Preferences/IntelliJIdea2016.1" \
     --exclude chrome-user-data \
     --exclude componentVersions \
     --exclude scratches \

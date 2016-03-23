@@ -19,12 +19,12 @@
       <project id="brookings" values="DEFAULT" collectionTime="0" />
       <project id="bar" values="ECMAScript 5.1" collectionTime="1455758062268" />
       <project id="flash" values="ECMAScript 5.1" collectionTime="1458668595134" />
-      <project id="tools" values="ECMAScript 5.1" collectionTime="1458668451711" />
+      <project id="tools" values="ECMAScript 5.1" collectionTime="1458740433497" />
       <project id="vow" values="ECMAScript 5.1" collectionTime="1456594593742" />
       <project id="practise" values="ECMAScript 5.1" collectionTime="1458668478024" />
       <project id="ruby" values="DEFAULT" collectionTime="0" />
       <project id="mal" values="DEFAULT" collectionTime="0" />
-      <project id="nonstd" values="ECMAScript 5.1" collectionTime="1458678189331" />
+      <project id="nonstd" values="ECMAScript 5.1" collectionTime="1458740433478" />
       <project id="structure_fix" values="DEFAULT" collectionTime="0" />
       <project id="euler-clj" values="DEFAULT" collectionTime="0" />
       <project id="Java8" values="DEFAULT" collectionTime="0" />
@@ -41,12 +41,11 @@
     <group name="vcs">
       <project id="Flash" values="Git" collectionTime="0" />
       <project id="mgglims" values="svn" collectionTime="0" />
-      <project id="assembler" values="Git" collectionTime="1458668591785" />
       <project id="archetype-gradle" values="Git" collectionTime="1451831769755" />
       <project id="mal" values="Git" collectionTime="0" />
       <project id="vow" values="Git" collectionTime="1456594593722" />
       <project id="web-client" values="Git" collectionTime="0" />
-      <project id="tools" values="Git" collectionTime="1458668451562" />
+      <project id="tools" values="Git" collectionTime="1458740433481" />
       <project id="archetype-kotlin" values="Git" collectionTime="1456068530596" />
       <project id="brookings" values="svn" collectionTime="0" />
       <project id="projectdb" values="svn" collectionTime="0" />
@@ -55,31 +54,29 @@
       <project id="grails-spring-security-ldap" values="Git" collectionTime="0" />
       <project id="io-bench" values="Git" collectionTime="1458668456059" />
       <project id="Flashback" values="Git" collectionTime="0" />
-      <project id="nonstd" values="Git" collectionTime="1458678189088" />
       <project id="lazy" values="Git" collectionTime="0" />
       <project id="d3play" values="Git" collectionTime="0" />
       <project id="sonos-java" values="Git" collectionTime="0" />
-      <project id="espresso" values="Git" collectionTime="0" />
+      <project id="assembler" values="Git" collectionTime="1458668591785" />
       <project id="rattigan.github.io" values="Git" collectionTime="1455583883764" />
-      <project id="todoist-cli" values="Git" collectionTime="1456575431692" />
+      <project id="nonstd" values="Git" collectionTime="1458740432748" />
       <project id="grailscbipcrowdplugin" values="svn" collectionTime="0" />
+      <project id="espresso" values="Git" collectionTime="0" />
       <project id="project-db-plugin-test" values="svn" collectionTime="0" />
+      <project id="todoist-cli" values="Git" collectionTime="1456575431692" />
       <project id="novartis" values="Git" collectionTime="0" />
       <project id="cognaxis" values="Git" collectionTime="0" />
     </group>
-    <group name="VCS Log 2">
-      <project id="nonstd" values="data.git.root.count.1,data.commit.count.1+" collectionTime="1458678189330" />
-    </group>
     <group name="run-configuration-type">
       <project id="Flash" values="AndroidRunConfigurationType" collectionTime="0" />
-      <project id="mgglims" values="JavascriptDebugSession.Remote,Remote,com.intellij.persistence.run.ConsoleRunConfigurationType,Application,TestNG,GWT.ConfigurationType" collectionTime="0" />
+      <project id="mgglims" values="Remote,com.intellij.persistence.run.ConsoleRunConfigurationType,Application,TestNG,GWT.ConfigurationType,JavascriptDebugSession.Remote" collectionTime="0" />
       <project id="goog-interview" values="Application" collectionTime="1451708009410" />
       <project id="flash" values="Application" collectionTime="1458668595053" />
       <project id="Flashback" values="Application" collectionTime="0" />
       <project id="euler-clj" values="Unknown" collectionTime="0" />
       <project id="projectdb" values="GrailsRunConfigurationType" collectionTime="0" />
       <project id="prometheus" values="GrailsRunConfigurationType" collectionTime="0" />
-      <project id="trunk" values="TestNG,Remote,GWT.ConfigurationType,JavascriptDebugSession.Remote,Application,com.intellij.persistence.run.ConsoleRunConfigurationType" collectionTime="0" />
+      <project id="trunk" values="JavascriptDebugSession.Remote,Application,com.intellij.persistence.run.ConsoleRunConfigurationType,GWT.ConfigurationType,Remote,TestNG" collectionTime="0" />
       <project id="python" values="PythonConfigurationType" collectionTime="0" />
       <project id="io-bench" values="Application" collectionTime="1458668456059" />
       <project id="phash" values="GroovyScriptRunConfiguration" collectionTime="0" />
@@ -92,7 +89,7 @@
       <project id="clojure" values="ClojureScriptRunConfiguration" collectionTime="0" />
       <project id="project-db-plugin-test" values="GrailsRunConfigurationType" collectionTime="0" />
       <project id="magicsquare" values="Application" collectionTime="0" />
-      <project id="novartis" values="Remote,GrailsRunConfigurationType" collectionTime="0" />
+      <project id="novartis" values="GrailsRunConfigurationType,Remote" collectionTime="0" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="vow" values="TestNG" collectionTime="1456594593722" />
@@ -102,49 +99,49 @@
       <project id="sonos-java" values="JUnit,GradleRunConfiguration" collectionTime="0" />
       <project id="Flashback" values="GradleRunConfiguration" collectionTime="0" />
       <project id="Java8" values="Application" collectionTime="0" />
-      <project id="nonstd" values="TestNG" collectionTime="1458678189108" />
+      <project id="nonstd" values="TestNG" collectionTime="1458740432750" />
     </group>
     <group name="IDE Settings">
       <project id="cognaxis" values="CdiProjectComponent#named(true),CdiProjectComponent#binding(true)" collectionTime="0" />
     </group>
     <group name="file-type">
-      <project id="assembler" values="Groovy,JAVA,IDEA_MODULE,PLAIN_TEXT,UNKNOWN,XML" collectionTime="1458668591883" />
+      <project id="assembler" values="IDEA_MODULE,PLAIN_TEXT,XML,Groovy,UNKNOWN,JAVA" collectionTime="1458668591883" />
       <project id="untitled" values="UNKNOWN" collectionTime="0" />
-      <project id="bin" values="ARCHIVE,Python,UNKNOWN,IDEA_MODULE,Groovy,XML,HTML" collectionTime="0" />
-      <project id="childes" values="Groovy,XML,UNKNOWN,IDEA_MODULE,PLAIN_TEXT" collectionTime="1456594593618" />
-      <project id="nonstd" values="UNKNOWN,PLAIN_TEXT,Groovy,XML,IDEA_MODULE,JAVA" collectionTime="1458678189320" />
-      <project id="grailscbipcrowdplugin" values="PLAIN_TEXT,Eclipse,Groovy,XML,GSP,ARCHIVE,JAVA,IDEA_MODULE,Properties,CSS,Images,UNKNOWN" collectionTime="0" />
-      <project id="novartis" values="FTL,JavaScript,Eclipse,CSS,SQL,PLAIN_TEXT,Images,Properties,IDEA_MODULE,JAVA,Enforced Plain Text,XML,ARCHIVE,CoffeeScript,GSP,UNKNOWN,Groovy,HTML" collectionTime="0" />
-      <project id="archetype-kotlin" values="PLAIN_TEXT,Groovy,IDEA_MODULE,Kotlin,UNKNOWN,XML" collectionTime="1456068530683" />
+      <project id="bin" values="XML,Python,UNKNOWN,Groovy,ARCHIVE,HTML,IDEA_MODULE" collectionTime="0" />
+      <project id="childes" values="UNKNOWN,Groovy,XML,IDEA_MODULE,PLAIN_TEXT" collectionTime="1456594593618" />
+      <project id="nonstd" values="Groovy,UNKNOWN,XML,PLAIN_TEXT,JAVA,CLASS,Manifest,IDEA_MODULE,CSS,JavaScript,HTML,ARCHIVE" collectionTime="1458740433113" />
+      <project id="grailscbipcrowdplugin" values="Images,ARCHIVE,Properties,XML,UNKNOWN,GSP,JAVA,PLAIN_TEXT,IDEA_MODULE,CSS,Groovy,Eclipse" collectionTime="0" />
+      <project id="novartis" values="Properties,GSP,CSS,Eclipse,HTML,PLAIN_TEXT,IDEA_MODULE,Groovy,Enforced Plain Text,XML,Images,UNKNOWN,FTL,JAVA,ARCHIVE,SQL,JavaScript,CoffeeScript" collectionTime="0" />
+      <project id="archetype-kotlin" values="Groovy,PLAIN_TEXT,IDEA_MODULE,XML,UNKNOWN,Kotlin" collectionTime="1456068530683" />
       <project id="ruby" values="UNKNOWN" collectionTime="0" />
-      <project id="archetype-gradle" values="XML,PLAIN_TEXT,IDEA_MODULE,UNKNOWN" collectionTime="1451831769773" />
-      <project id="rattigan.github.io" values="PLAIN_TEXT,SCSS,Bash,XML,HTML,IDEA_MODULE,YAML,CSS,UNKNOWN" collectionTime="1455583883813" />
-      <project id="web-client" values="Groovy,JAVA,PLAIN_TEXT,XML,UNKNOWN,IDEA_MODULE" collectionTime="0" />
-      <project id="Flashback" values="CoffeeScript,LESS,CSS,HTML,ARCHIVE,IDEA_MODULE,Groovy,JSON,JavaScript,XML,UNKNOWN,PLAIN_TEXT,Images,JAVA,Native,Properties" collectionTime="0" />
-      <project id="Ears" values="Python,UNKNOWN,XML,IDEA_MODULE,PLAIN_TEXT" collectionTime="0" />
-      <project id="brookings" values="UNKNOWN,PLAIN_TEXT,C++,JSON,HTML,IDEA_MODULE,Images,XML" collectionTime="0" />
-      <project id="project-db-plugin-test" values="Eclipse,Properties,IDEA_MODULE,PLAIN_TEXT,GSP,XML,JavaScript,UNKNOWN,CSS,Groovy,JAVA,Native,Images" collectionTime="0" />
-      <project id="bar" values="Groovy,XML,Bash,Properties,IDEA_MODULE,UNKNOWN,PLAIN_TEXT,ARCHIVE" collectionTime="1455758062168" />
-      <project id="flash" values="XML,IDEA_MODULE,JAVA,UNKNOWN,PLAIN_TEXT" collectionTime="1458668595132" />
-      <project id="groovy" values="IDEA_PROJECT,IDEA_WORKSPACE,Groovy,XML,IDEA_MODULE,UNKNOWN" collectionTime="0" />
-      <project id="vow" values="Groovy,UNKNOWN,PLAIN_TEXT,Git file,JAVA,XML,IDEA_MODULE" collectionTime="1456594593738" />
-      <project id="practise" values="XML,UNKNOWN,PLAIN_TEXT,JAVA,IDEA_MODULE" collectionTime="1458668478021" />
-      <project id="mal" values="UNKNOWN,PLAIN_TEXT,Groovy,JAVA" collectionTime="0" />
-      <project id="todoist-cli" values="PLAIN_TEXT,UNKNOWN,Groovy,Git file,XML,Kotlin,Bash" collectionTime="1456575431747" />
-      <project id="structure_fix" values="UNKNOWN,XML,Groovy,IDEA_MODULE,SQL,PLAIN_TEXT" collectionTime="0" />
-      <project id="euler-clj" values="IDEA_MODULE,XML,UNKNOWN,PLAIN_TEXT" collectionTime="0" />
-      <project id="tools" values="UNKNOWN,PLAIN_TEXT,ActionScript,Images,XML,Native,JAVA,IDEA_MODULE" collectionTime="1458668451673" />
-      <project id="lazy" values="IDEA_MODULE,XML,UNKNOWN,CoffeeScript,PLAIN_TEXT" collectionTime="0" />
-      <project id="Java8" values="XML,JAVA,IDEA_MODULE,UNKNOWN,HTML" collectionTime="0" />
-      <project id="cognaxis" values="IDEA_MODULE,UNKNOWN,HTML,JavaScript,Images,ARCHIVE,CSS,JAVA,CoffeeScript,PLAIN_TEXT,XML,LESS" collectionTime="0" />
-      <project id="sonos-java" values="UNKNOWN,XML,Groovy,JAVA,IDEA_MODULE,PLAIN_TEXT" collectionTime="0" />
-      <project id="d3play" values="IDEA_MODULE,Stylus,XML,JavaScript,Images,CoffeeScript,PLAIN_TEXT,UNKNOWN" collectionTime="0" />
-      <project id="mgglims" values="UNKNOWN,Images,SWF,DATASOURCE_STORAGE,XML,Groovy,JSON,IDEA_MODULE,ARCHIVE,PLAIN_TEXT,Native,HTML,CSS,JAVA,Properties,JavaScript,SQL" collectionTime="0" />
-      <project id="goog-interview" values="PLAIN_TEXT,UNKNOWN,CSS,HTML,Properties,XML,SWF,Groovy,ARCHIVE,Images,PATCH,YAML,C++,JSON,ActionScript,JSCS,JSHint,JavaScript,ESLint,IDEA_MODULE,JAVA" collectionTime="1451708009436" />
-      <project id="Flash" values="PLAIN_TEXT,IDEA_MODULE,Images,ARCHIVE,JAVA,XML,UNKNOWN,CLASS,Properties,Groovy" collectionTime="0" />
-      <project id="io-bench" values="XML,IDEA_MODULE,JAVA,Groovy,ARCHIVE,UNKNOWN,PLAIN_TEXT,Properties" collectionTime="1458668456168" />
-      <project id="python" values="JSON,PLAIN_TEXT,C++,UNKNOWN,Python,XML,IDEA_MODULE" collectionTime="0" />
-      <project id="Mathematics" values="PLAIN_TEXT,JavaScript,Images,XML,IDEA_MODULE,HTML,JSON,UNKNOWN" collectionTime="0" />
+      <project id="archetype-gradle" values="UNKNOWN,XML,PLAIN_TEXT,IDEA_MODULE" collectionTime="1451831769773" />
+      <project id="rattigan.github.io" values="SCSS,IDEA_MODULE,Bash,XML,YAML,PLAIN_TEXT,CSS,UNKNOWN,HTML" collectionTime="1455583883813" />
+      <project id="web-client" values="Groovy,UNKNOWN,IDEA_MODULE,JAVA,XML,PLAIN_TEXT" collectionTime="0" />
+      <project id="Flashback" values="IDEA_MODULE,UNKNOWN,XML,HTML,JavaScript,CoffeeScript,JSON,Images,Properties,CSS,Native,Groovy,LESS,JAVA,ARCHIVE,PLAIN_TEXT" collectionTime="0" />
+      <project id="Ears" values="XML,IDEA_MODULE,UNKNOWN,Python,PLAIN_TEXT" collectionTime="0" />
+      <project id="brookings" values="Images,PLAIN_TEXT,XML,C++,HTML,JSON,IDEA_MODULE,UNKNOWN" collectionTime="0" />
+      <project id="project-db-plugin-test" values="CSS,Properties,JavaScript,IDEA_MODULE,PLAIN_TEXT,Native,GSP,Groovy,UNKNOWN,Eclipse,Images,XML,JAVA" collectionTime="0" />
+      <project id="bar" values="XML,UNKNOWN,IDEA_MODULE,Bash,PLAIN_TEXT,ARCHIVE,Properties,Groovy" collectionTime="1455758062168" />
+      <project id="flash" values="UNKNOWN,IDEA_MODULE,XML,JAVA,PLAIN_TEXT" collectionTime="1458668595132" />
+      <project id="groovy" values="UNKNOWN,Groovy,IDEA_MODULE,IDEA_WORKSPACE,IDEA_PROJECT,XML" collectionTime="0" />
+      <project id="vow" values="Git file,IDEA_MODULE,PLAIN_TEXT,JAVA,Groovy,UNKNOWN,XML" collectionTime="1456594593738" />
+      <project id="practise" values="XML,UNKNOWN,IDEA_MODULE,PLAIN_TEXT,JAVA" collectionTime="1458668478021" />
+      <project id="mal" values="Groovy,JAVA,PLAIN_TEXT,UNKNOWN" collectionTime="0" />
+      <project id="todoist-cli" values="UNKNOWN,XML,Groovy,Bash,PLAIN_TEXT,Git file,Kotlin" collectionTime="1456575431747" />
+      <project id="structure_fix" values="Groovy,IDEA_MODULE,UNKNOWN,SQL,XML,PLAIN_TEXT" collectionTime="0" />
+      <project id="euler-clj" values="UNKNOWN,IDEA_MODULE,PLAIN_TEXT,XML" collectionTime="0" />
+      <project id="tools" values="ActionScript,IDEA_MODULE,XML,UNKNOWN,JAVA,PLAIN_TEXT,Properties,JavaScript,Groovy,Images,Native" collectionTime="1458740433487" />
+      <project id="lazy" values="XML,UNKNOWN,CoffeeScript,IDEA_MODULE,PLAIN_TEXT" collectionTime="0" />
+      <project id="Java8" values="HTML,UNKNOWN,JAVA,IDEA_MODULE,XML" collectionTime="0" />
+      <project id="cognaxis" values="CoffeeScript,CSS,LESS,ARCHIVE,XML,JavaScript,UNKNOWN,IDEA_MODULE,JAVA,PLAIN_TEXT,HTML,Images" collectionTime="0" />
+      <project id="sonos-java" values="IDEA_MODULE,PLAIN_TEXT,UNKNOWN,XML,Groovy,JAVA" collectionTime="0" />
+      <project id="d3play" values="IDEA_MODULE,Stylus,XML,UNKNOWN,JavaScript,PLAIN_TEXT,CoffeeScript,Images" collectionTime="0" />
+      <project id="mgglims" values="XML,JavaScript,Properties,UNKNOWN,JSON,SWF,ARCHIVE,SQL,Native,CSS,Images,HTML,IDEA_MODULE,PLAIN_TEXT,Groovy,DATASOURCE_STORAGE,JAVA" collectionTime="0" />
+      <project id="goog-interview" values="Properties,PATCH,ESLint,Groovy,YAML,JSCS,JavaScript,ARCHIVE,JAVA,C++,ActionScript,SWF,Images,CSS,IDEA_MODULE,JSHint,XML,PLAIN_TEXT,UNKNOWN,HTML,JSON" collectionTime="1451708009436" />
+      <project id="Flash" values="Images,ARCHIVE,IDEA_MODULE,Groovy,Properties,PLAIN_TEXT,UNKNOWN,JAVA,XML,CLASS" collectionTime="0" />
+      <project id="io-bench" values="Groovy,Properties,ARCHIVE,IDEA_MODULE,UNKNOWN,PLAIN_TEXT,XML,JAVA" collectionTime="1458668456168" />
+      <project id="python" values="UNKNOWN,Python,XML,PLAIN_TEXT,IDEA_MODULE,JSON,C++" collectionTime="0" />
+      <project id="Mathematics" values="JSON,PLAIN_TEXT,IDEA_MODULE,HTML,UNKNOWN,Images,XML,JavaScript" collectionTime="0" />
     </group>
     <group name="php-version">
       <project id="mgglims" values="not installed" collectionTime="0" />
@@ -160,18 +157,18 @@
       <project id="grailscbipcrowdplugin" values="not installed" collectionTime="0" />
     </group>
     <group name="jdbc-datasource">
-      <project id="mgglims" values=" OLAP and Data Mining options,Oracle/Oracle Database 10g Enterprise Edition Release 10.1.0.4.0 - 64bit Production&#10;With the Partitioning, OLAP and Data Mining options,Oracle/Oracle Database 10g Enterprise Edition Release 10.1.0.4.0 - 64bit Production&#10;With the Partitioning" collectionTime="0" />
-      <project id="trunk" values=" OLAP and Data Mining options, OLAP and Data Mining options,Oracle/Oracle Database 10g Enterprise Edition Release 10.1.0.4.0 - 64bit Production&#10;With the Partitioning,Oracle/Oracle Database 10g Enterprise Edition Release 10.1.0.4.0 - 64bit Production&#10;With the Partitioning" collectionTime="0" />
+      <project id="trunk" values="Oracle/Oracle Database 10g Enterprise Edition Release 10.1.0.4.0 - 64bit Production&#10;With the Partitioning, OLAP and Data Mining options,Oracle/Oracle Database 10g Enterprise Edition Release 10.1.0.4.0 - 64bit Production&#10;With the Partitioning, OLAP and Data Mining options" collectionTime="0" />
+      <project id="mgglims" values=" OLAP and Data Mining options, OLAP and Data Mining options,Oracle/Oracle Database 10g Enterprise Edition Release 10.1.0.4.0 - 64bit Production&#10;With the Partitioning,Oracle/Oracle Database 10g Enterprise Edition Release 10.1.0.4.0 - 64bit Production&#10;With the Partitioning" collectionTime="0" />
     </group>
     <group name="jdbc-driver">
-      <project id="mgglims" values="oracle.jdbc.OracleDriver,oracle.jdbc.OracleDriver" collectionTime="0" />
       <project id="trunk" values="oracle.jdbc.OracleDriver,oracle.jdbc.OracleDriver" collectionTime="0" />
+      <project id="mgglims" values="oracle.jdbc.OracleDriver,oracle.jdbc.OracleDriver" collectionTime="0" />
     </group>
     <group name="spring">
       <project id="projectdb" values="webflow" collectionTime="0" />
       <project id="project-db-plugin-test" values="webflow,mvc,security_3_0" collectionTime="0" />
       <project id="grails-spring-security-ldap" values="webflow,mvc" collectionTime="0" />
-      <project id="grailscbipcrowdplugin" values="webflow,security_3_0,mvc" collectionTime="0" />
+      <project id="grailscbipcrowdplugin" values="mvc,security_3_0,webflow" collectionTime="0" />
       <project id="Flashback" values="fileset_annotationContext,fileset_configFiles5" collectionTime="0" />
       <project id="prometheus" values="webflow,mvc" collectionTime="0" />
       <project id="novartis" values="webflow,mvc" collectionTime="0" />
@@ -196,7 +193,6 @@
       <project id="bin" values="PYTHON_MODULE" collectionTime="0" />
       <project id="childes" values="JAVA_MODULE" collectionTime="1456594593551" />
       <project id="grailscbipcrowdplugin" values="JAVA_MODULE" collectionTime="0" />
-      <project id="Ears" values="PYTHON_MODULE" collectionTime="0" />
       <project id="novartis" values="JAVA_MODULE" collectionTime="0" />
       <project id="archetype-kotlin" values="JAVA_MODULE" collectionTime="1456068530596" />
       <project id="python" values="PYTHON_MODULE" collectionTime="0" />
@@ -209,21 +205,21 @@
       <project id="brookings" values="JAVA_MODULE" collectionTime="0" />
       <project id="project-db-plugin-test" values="JAVA_MODULE" collectionTime="0" />
       <project id="bar" values="JAVA_MODULE" collectionTime="1455758062101" />
-      <project id="clojure" values="JAVA_MODULE" collectionTime="0" />
       <project id="Verastem" values="JAVA_MODULE" collectionTime="0" />
-      <project id="flash" values="JAVA_MODULE" collectionTime="1458668595053" />
+      <project id="clojure" values="JAVA_MODULE" collectionTime="0" />
       <project id="phash" values="JAVA_MODULE" collectionTime="0" />
       <project id="magicsquare" values="JAVA_MODULE" collectionTime="0" />
-      <project id="groovy" values="JAVA_MODULE" collectionTime="0" />
+      <project id="tools" values="WEB_MODULE" collectionTime="1458740433482" />
       <project id="vow" values="JAVA_MODULE" collectionTime="1456594593722" />
       <project id="trunk" values="JAVA_MODULE" collectionTime="0" />
       <project id="practise" values="JAVA_MODULE" collectionTime="1458668477891" />
       <project id="mal" values="JAVA_MODULE" collectionTime="0" />
-      <project id="nonstd" values="JAVA_MODULE" collectionTime="1458678189088" />
+      <project id="nonstd" values="JAVA_MODULE" collectionTime="1458740432749" />
       <project id="structure_fix" values="JAVA_MODULE" collectionTime="0" />
       <project id="euler-clj" values="JAVA_MODULE" collectionTime="0" />
-      <project id="tools" values="WEB_MODULE" collectionTime="1458668451563" />
+      <project id="Ears" values="PYTHON_MODULE" collectionTime="0" />
       <project id="todoist-cli" values="JAVA_MODULE" collectionTime="1456575431692" />
+      <project id="groovy" values="JAVA_MODULE" collectionTime="0" />
       <project id="Java8" values="JAVA_MODULE" collectionTime="0" />
       <project id="lazy" values="JAVA_MODULE" collectionTime="0" />
       <project id="dupfinder" values="JAVA_MODULE" collectionTime="0" />
@@ -235,6 +231,7 @@
       <project id="goog-interview" values="JAVA_MODULE" collectionTime="1451708009410" />
       <project id="Flash" values="JAVA_MODULE" collectionTime="0" />
       <project id="io-bench" values="JAVA_MODULE" collectionTime="1458668456059" />
+      <project id="flash" values="JAVA_MODULE" collectionTime="1458668595053" />
       <project id="Mathematics" values="WEB_MODULE" collectionTime="0" />
     </group>
     <group name="php-debug-extension-remote">
@@ -265,11 +262,11 @@
       <project id="bar" values="Project,Project" collectionTime="1455758062268" />
       <project id="flash" values="Project,Project" collectionTime="1458668595134" />
       <project id="euler-clj" values="Project,Project" collectionTime="0" />
-      <project id="tools" values="Project,Project" collectionTime="1458668451711" />
+      <project id="tools" values="Project,Project" collectionTime="1458740433497" />
       <project id="vow" values="Project,Project" collectionTime="1456594593742" />
       <project id="web-client" values="Project,Project" collectionTime="0" />
       <project id="mal" values="Project,Project" collectionTime="0" />
-      <project id="nonstd" values="Project,Project" collectionTime="1458678189330" />
+      <project id="nonstd" values="Project,Project" collectionTime="1458740433477" />
       <project id="structure_fix" values="Project,Project" collectionTime="0" />
       <project id="Flashback" values="Project,Project" collectionTime="0" />
       <project id="Java8" values="Project,Project" collectionTime="0" />
@@ -285,20 +282,20 @@
       <project id="Mathematics" values="Project,Project" collectionTime="0" />
     </group>
     <group name="Git">
-      <project id="goog-interview" values="config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.push.autoupdate.disabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.save.policy.STASH" collectionTime="1451708009437" />
-      <project id="archetype-gradle" values="data.remotes.in.project.1,data.remote.branches.count.0,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,data.local.branches.count.0,config.push.autoupdate.disabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.ssh.enabled" collectionTime="1451831769774" />
-      <project id="flash" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1458668595132" />
-      <project id="bar" values="config.save.policy.STASH,config.push.update.all.roots.enabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled" collectionTime="1455758062181" />
-      <project id="tools" values="config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,data.local.branches.count.1,config.force.push.enabled,config.warn.about.detached.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.1,config.save.policy.STASH,config.push.update.all.roots.enabled,data.remotes.in.project.1" collectionTime="1458668451692" />
-      <project id="archetype-kotlin" values="config.repo.sync.NOT_DECIDED,data.remote.branches.count.1,data.remotes.in.project.2+,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.ssh.enabled,data.local.branches.count.1,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.save.policy.STASH,config.force.push.enabled" collectionTime="1456068530696" />
-      <project id="todoist-cli" values="config.push.autoupdate.disabled,data.remotes.in.project.2+,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,data.remote.branches.count.2+,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,data.local.branches.count.1" collectionTime="1456575431757" />
-      <project id="rattigan.github.io" values="config.save.policy.STASH,config.force.push.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,data.remote.branches.count.2+,config.push.update.all.roots.enabled,data.remotes.in.project.1,data.local.branches.count.2+,config.warn.about.detached.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1455583883821" />
-      <project id="io-bench" values="config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,config.warn.about.detached.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,data.remote.branches.count.1,config.force.push.enabled,config.push.autoupdate.disabled" collectionTime="1458668456171" />
-      <project id="childes" values="config.warn.about.crlf.enabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.force.push.enabled" collectionTime="1456594593630" />
-      <project id="practise" values="config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.force.push.enabled,config.ssh.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled" collectionTime="1458668478022" />
-      <project id="assembler" values="data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,data.remote.branches.count.0,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,data.local.branches.count.0,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1458668591886" />
-      <project id="nonstd" values="config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,data.remotes.in.project.1,data.remote.branches.count.1,data.local.branches.count.1,config.push.update.all.roots.enabled,config.force.push.enabled" collectionTime="1458678189330" />
-      <project id="vow" values="config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.warn.about.detached.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,data.local.branches.count.1,data.remote.branches.count.1,config.repo.sync.NOT_DECIDED" collectionTime="1456594593741" />
+      <project id="goog-interview" values="config.save.policy.STASH,config.warn.about.crlf.enabled,config.force.push.enabled,config.ssh.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED" collectionTime="1451708009437" />
+      <project id="archetype-gradle" values="data.local.branches.count.0,config.warn.about.detached.enabled,config.ssh.enabled,config.save.policy.STASH,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,data.remote.branches.count.0,config.warn.about.crlf.enabled,data.remotes.in.project.1,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled" collectionTime="1451831769774" />
+      <project id="flash" values="config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1458668595132" />
+      <project id="tools" values="config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.push.autoupdate.disabled,data.remote.branches.count.1,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,data.local.branches.count.1,config.warn.about.crlf.enabled,data.remotes.in.project.1" collectionTime="1458740433488" />
+      <project id="bar" values="config.warn.about.crlf.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.force.push.enabled,config.push.autoupdate.disabled" collectionTime="1455758062181" />
+      <project id="archetype-kotlin" values="config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.1,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,data.remotes.in.project.2+,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.warn.about.detached.enabled,config.force.push.enabled,data.local.branches.count.1" collectionTime="1456068530696" />
+      <project id="todoist-cli" values="config.repo.sync.NOT_DECIDED,data.remote.branches.count.2+,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,data.local.branches.count.1,config.force.push.enabled,config.cherry-pick.autocommit.disabled,data.remotes.in.project.2+,config.push.update.all.roots.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1456575431757" />
+      <project id="rattigan.github.io" values="config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.push.update.all.roots.enabled,data.local.branches.count.2+,config.force.push.enabled,data.remote.branches.count.2+,config.save.policy.STASH,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1455583883821" />
+      <project id="io-bench" values="config.save.policy.STASH,data.remote.branches.count.1,config.warn.about.crlf.enabled,config.force.push.enabled,data.local.branches.count.1,config.ssh.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED" collectionTime="1458668456171" />
+      <project id="childes" values="config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.warn.about.crlf.enabled" collectionTime="1456594593630" />
+      <project id="practise" values="config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled" collectionTime="1458668478022" />
+      <project id="assembler" values="config.repo.sync.NOT_DECIDED,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.save.policy.STASH,data.remote.branches.count.0,config.force.push.enabled,data.local.branches.count.0,config.update.type.BRANCH_DEFAULT,config.ssh.enabled" collectionTime="1458668591886" />
+      <project id="nonstd" values="config.force.push.enabled,data.remote.branches.count.1,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.push.autoupdate.disabled,config.warn.about.crlf.enabled" collectionTime="1458740433144" />
+      <project id="vow" values="config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,data.remote.branches.count.1,config.save.policy.STASH,data.remotes.in.project.1,config.warn.about.detached.enabled,config.push.update.all.roots.enabled" collectionTime="1456594593741" />
     </group>
     <group name="libraries">
       <project id="groovy" values="groovy" collectionTime="0" />
@@ -306,34 +303,34 @@
       <project id="childes" values="groovy" collectionTime="1456594593624" />
       <project id="web-client" values="groovy" collectionTime="0" />
       <project id="projectdb" values="gant" collectionTime="0" />
-      <project id="prometheus" values="gant,groovy,grails" collectionTime="0" />
+      <project id="prometheus" values="groovy,grails,gant" collectionTime="0" />
       <project id="trunk" values="groovy" collectionTime="0" />
-      <project id="grails-spring-security-ldap" values="gant,grails,groovy" collectionTime="0" />
+      <project id="grails-spring-security-ldap" values="groovy,grails,gant" collectionTime="0" />
       <project id="groovyutil" values="groovy" collectionTime="0" />
-      <project id="Flashback" values="hibernate,spring,spring-security,groovy" collectionTime="0" />
+      <project id="Flashback" values="spring-security,groovy,spring,hibernate" collectionTime="0" />
       <project id="mal" values="groovy" collectionTime="0" />
       <project id="structure_fix" values="groovy" collectionTime="0" />
-      <project id="grailscbipcrowdplugin" values="grails,spring,spring-security,groovy,spring-webflow,gant" collectionTime="0" />
-      <project id="project-db-plugin-test" values="gant,spring-webflow,groovy,grails,spring,spring-security" collectionTime="0" />
-      <project id="novartis" values="groovy,grails,spring,spring-webflow,spring-mvc,gant,hibernate" collectionTime="0" />
+      <project id="grailscbipcrowdplugin" values="groovy,grails,spring-webflow,gant,spring,spring-security" collectionTime="0" />
+      <project id="project-db-plugin-test" values="spring-webflow,grails,spring-security,gant,spring,groovy" collectionTime="0" />
+      <project id="novartis" values="groovy,grails,spring,spring-webflow,spring-mvc,hibernate,gant" collectionTime="0" />
       <project id="phash" values="groovy" collectionTime="0" />
     </group>
     <group name="frameworks">
       <project id="Flash" values="android,android-gradle" collectionTime="0" />
-      <project id="mgglims" values="gwt,web" collectionTime="0" />
+      <project id="mgglims" values="web,gwt" collectionTime="0" />
       <project id="Flashback" values="Spring" collectionTime="0" />
       <project id="dupfinder" values="Clojure" collectionTime="0" />
       <project id="projectdb" values="Spring,web" collectionTime="0" />
-      <project id="prometheus" values="Spring,web" collectionTime="0" />
+      <project id="prometheus" values="web,Spring" collectionTime="0" />
       <project id="trunk" values="web,gwt" collectionTime="0" />
-      <project id="grails-spring-security-ldap" values="Spring,web" collectionTime="0" />
+      <project id="grails-spring-security-ldap" values="web,Spring" collectionTime="0" />
       <project id="euler-clj" values="invalid" collectionTime="0" />
       <project id="bin" values="invalid" collectionTime="0" />
       <project id="grailscbipcrowdplugin" values="web,hibernate,Spring" collectionTime="0" />
       <project id="clojure" values="Clojure" collectionTime="0" />
-      <project id="project-db-plugin-test" values="Spring,hibernate,web" collectionTime="0" />
-      <project id="novartis" values="web,hibernate,Spring" collectionTime="0" />
-      <project id="cognaxis" values="google-app-engine,web" collectionTime="0" />
+      <project id="project-db-plugin-test" values="hibernate,web,Spring" collectionTime="0" />
+      <project id="novartis" values="web,Spring,hibernate" collectionTime="0" />
+      <project id="cognaxis" values="web,google-app-engine" collectionTime="0" />
     </group>
     <group name="language-level">
       <project id="assembler" values="JDK_1_8" collectionTime="1458668591886" />
@@ -351,12 +348,12 @@
       <project id="brookings" values="JDK_1_5" collectionTime="0" />
       <project id="bar" values="JDK_1_6" collectionTime="1455758062179" />
       <project id="flash" values="JDK_1_8" collectionTime="1458668595132" />
-      <project id="tools" values="JDK_1_6" collectionTime="1458668451678" />
+      <project id="tools" values="JDK_1_6" collectionTime="1458740433488" />
       <project id="vow" values="JDK_1_8" collectionTime="1456594593739" />
       <project id="practise" values="JDK_1_8" collectionTime="1458668478022" />
       <project id="ruby" values="JDK_1_6" collectionTime="0" />
       <project id="mal" values="JDK_1_8" collectionTime="0" />
-      <project id="nonstd" values="JDK_1_8" collectionTime="1458678189330" />
+      <project id="nonstd" values="JDK_1_8" collectionTime="1458740433138" />
       <project id="structure_fix" values="JDK_1_6" collectionTime="0" />
       <project id="euler-clj" values="JDK_1_5" collectionTime="0" />
       <project id="Java8" values="JDK_1_8" collectionTime="0" />
@@ -429,7 +426,7 @@
       <entry feature="ide.settings.VisualVM_Launcher" count="1" />
       <entry feature="ide.settings.XML" count="1" />
       <entry feature="idea.caches.invalidated" count="3" />
-      <entry feature="ideaapp.started" count="139" />
+      <entry feature="ideaapp.started" count="141" />
       <entry feature="spring.SpringConfigurationCheck.FileCount.groovy" count="10" />
       <entry feature="spring.SpringConfigurationCheck.FileCount.java" count="2" />
       <entry feature="terminal.mac" count="17" />

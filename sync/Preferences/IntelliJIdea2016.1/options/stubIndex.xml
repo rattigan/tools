@@ -2,6 +2,7 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="java.unit.tree" />
         <option value="java.class.fqn" />
         <option value="java.class.shortname" />
         <option value="java.method.parameter.types" />
@@ -54,6 +55,8 @@
         <option value="gr.field.name" />
         <option value="gr.script.fqn" />
         <option value="gr.class.fqn" />
+        <option value="amd.requirePaths.index" />
+        <option value="amd.baseUrl.index" />
         <option value="js.symbol.qualified.names.index" />
         <option value="JS.subclass.stub.index" />
         <option value="js.namespace.index" />
@@ -70,6 +73,7 @@
         <option value="sql.column.name" />
         <option value="sql.table.shortName" />
         <option value="properties.index" />
+        <option value="Css.custom.property" />
         <option value="Css.attr" />
         <option value="Css.id" />
         <option value="Css.class" />
