@@ -305,6 +305,34 @@
     <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.0.0.1440.900" x="264" y="218" />
     <location key="VCS.ChangelistChooser.0.0.1440.900" x="543" y="300" />
     <location key="IgnoredSettingsDialog.0.0.1440.900" x="585" y="331" />
+    <location key="FileChooserDialogImpl.0.0.1280.800" x="428" y="128" />
+    <location key="NewModule_or_Project.wizard.0.0.1280.800" x="278" y="86" />
+    <location key="OptionsEditor.0.0.1280.800" x="128" y="23" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1280.800" x="104" y="71" />
+    <location key="git4idea.merge.GitPullDialog.0.0.1280.800" x="384" y="210" />
+    <location key="#com.intellij.ide.util.TreeClassChooserDialog.0.0.1280.800" x="377" y="206" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1280.800" x="453" y="123" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1280.800" x="478" y="40" />
+    <location key="refactoring.ChangeSignatureDialog.0.0.1280.800" x="402" y="23" />
+    <location key="extract.method.dialog.0.0.1280.800" x="378" y="178" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1280.800" x="322" y="23" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1280.800" x="378" y="171" />
+    <location key="new project wizard.0.0.1280.800" x="192" y="23" />
+    <location key="#Project_Structure.0.0.1280.800" x="128" y="23" />
+    <location key="findTextDialog.0.0.1280.800" x="402" y="137" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1280.800" x="419" y="303" />
+    <location key="#Gradle.0.0.1280.800" x="156" y="131" />
+    <location key="replaceTextDialog.0.0.1280.800" x="402" y="123" />
+    <location key="ReplaceDuplicatesPrompt.0.0.1280.800" x="151" y="334" />
+    <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1280.800" x="380" y="276" />
+    <location key="SettingsEditor.0.0.1280.800" x="90" y="72" />
+    <location key="chooseDestDirectoryDialog.0.0.1280.800" x="445" y="194" />
+    <location key="CommitChangelistDialog2.0.0.1280.800" x="297" y="122" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1280.800" x="378" y="163" />
+    <location key="#com.intellij.refactoring.memberPullUp.PullUpDialog.0.0.1280.800" x="348" y="195" />
+    <location key="Vcs.Push.Dialog.0.0.1280.800" x="342" y="131" />
+    <location key="com.intellij.testIntegration.createTest.CreateTestDialog.0.0.1280.800" x="419" y="176" />
+    <location key="DiffContextDialog.0.0.1280.800" x="138" y="92" />
     <size key="changelist.details.popup.0.22.1676.1028" width="254" height="75" />
     <size key="GridCell.Tab.0.center.0.22.1680.1024" width="1632" height="447" />
     <size key="GridCell.Tab.0.left.0.22.1676.1028" width="273" height="881" />
@@ -396,6 +424,20 @@
     <size key="new project wizard.0.0.1440.900" width="811" height="775" />
     <size key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog.0.0.1440.900" width="520" height="673" />
     <size key="jetbrains.javascript.buildTools.run-task-popup.0.0.1440.900" width="250" height="266" />
+    <size key="NewModule_or_Project.wizard.0.0.1280.800" width="896" height="646" />
+    <size key="GridCell.Tab.0.left.0.0.1280.800" width="1238" height="267" />
+    <size key="GridCell.Tab.0.center.0.0.1280.800" width="1238" height="267" />
+    <size key="GridCell.Tab.0.right.0.0.1280.800" width="1238" height="267" />
+    <size key="GridCell.Tab.0.bottom.0.0.1280.800" width="1238" height="267" />
+    <size key="GridCell.Tab.1.left.0.0.1280.800" width="1238" height="267" />
+    <size key="GridCell.Tab.1.center.0.0.1280.800" width="1238" height="267" />
+    <size key="GridCell.Tab.1.right.0.0.1280.800" width="1238" height="267" />
+    <size key="GridCell.Tab.1.bottom.0.0.1280.800" width="1238" height="267" />
+    <size key="javadoc.popup.0.0.1280.800" width="562" height="623" />
+    <size key="new project wizard.0.0.1280.800" width="895" height="773" />
+    <size key="findTextDialog.0.0.1280.800" width="475" height="560" />
+    <size key="SettingsEditor.0.0.1280.800" width="1190" height="675" />
+    <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1280.800" width="462" height="289" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
     <extendedState key="CommittedChanges.SplitterProportions.0" state="700" />
     <extendedState key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" state="0" />

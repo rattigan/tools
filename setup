@@ -4,7 +4,7 @@
 
 function link_tools {
     log "linking tools"
-    local target_dir="$HOME/$(basename "$this_dir")"
+    local target_dir="$HOME/$( basename "$this_dir" )"
     if [[ -e "$target_dir" ]]; then
         log "$target_dir already exists"
         return
@@ -16,7 +16,7 @@ function link_tools {
 
 function link_home {
     log "linking home"
-    ls -A "$this_dir"/home/ | while read file; do
+    ( cd home && find . -type f) | while read file; do
         local target_file="$HOME/$file"
         if [[ -e "$target_file" ]]; then
             log "$target_file already exists"
@@ -25,6 +25,7 @@ function link_home {
 
         local source_file="$this_dir/home/$file"
         log "linking $source_file to $target_file"
+        mkdir -p $( basename  "$target_file" )
         ln -sh "$source_file" "$target_file"
     done
 }

@@ -27,6 +27,8 @@
         <option name="modificationStamps">
           <map>
             <entry key="$USER_HOME$/github/archetype-kotlin" value="1451843318000" />
+            <entry key="$USER_HOME$/github/assembler" value="1458566590000" />
+            <entry key="$USER_HOME$/github/nonstd" value="1458229832000" />
             <entry key="$USER_HOME$/github/todoist-cli" value="1451857282000" />
             <entry key="$USER_HOME$/github/vow" value="2910994059000" />
           </map>
@@ -72,10 +74,10 @@
           <method />
         </configuration>
         <configuration default="true" type="Applet" factoryName="Applet">
-          <module />
           <option name="WIDTH" value="400" />
           <option name="HEIGHT" value="300" />
           <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+          <module />
           <method />
         </configuration>
         <configuration default="true" type="Application" factoryName="Application">

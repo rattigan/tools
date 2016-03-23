@@ -9,9 +9,8 @@
     <property name="IMMEDIATE_FATAL_ERROR_POPUP" value="false" />
     <property name="TestNG.Splitter.Proportion" value="0.22543353" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="FileTemplates.SelectedTemplate" value="Catch Statement Body" />
+    <property name="FileTemplates.SelectedTemplate" value="Arquillian Deployment Method" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="filter_non_existing" value="false" />
     <property name="installation.uid" value="f9a82888-51df-41d2-b9a6-01177aa60099" />
     <property name="SMTestRunner.Splitter.Proportion" value="0.019354839" />
     <property name="export.settings.path" value="$USER_HOME$/dev/settings.jar" />
@@ -20,11 +19,10 @@
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION" value="false" />
     <property name="TestNGSupport.selectFirtsDefect" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="CREATE_FIELD_FROM_PARAMETER_DECLARE_FINAL" value="false" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION" value="0.5" />
     <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/github/tools/tools.iml&#10;/Users/rattigan/Applications/VisualVM.app/Contents/MacOS/visualvm&#10;/Users/rattigan/github/vow/build.gradle&#10;/Users/rattigan/github/todoist-cli/build.gradle&#10;/usr/local/Cellar/groovy/2.4.5/libexec&#10;/usr/local/Cellar/gradle/2.10&#10;/Users/rattigan/github/archetype-kotlin/build.gradle&#10;/usr/local/Cellar/gradle/2.10/libexec&#10;/Users/rattigan/github/archetype-kotlin&#10;/Users/rattigan/github/tools&#10;/Users/rattigan/dev/richard/github/archetype-gradle&#10;/Users/rattigan/dev/richard/github/archetype-kotlin&#10;/Users/rattigan/dev/richard/rattigan.github.io&#10;/Users/rattigan/dev/sage/grendel/lib&#10;/usr/local/Cellar/groovy/2.4.1/libexec&#10;/Users/rattigan/dev/richard/mal/groovy/build.gradle&#10;/Users/rattigan/dev/richard/python&#10;/Users/rattigan/dev/richard/pymusic&#10;/usr/local/bin/python2.7&#10;/Users/rattigan/dev/richard/sonos-java&#10;/Users/rattigan/dev/richard/Flashback&#10;/Users/rattigan/homebrew/Cellar/groovy/2.2.2/libexec&#10;/Users/rattigan/dev/richard/Flashback/flashback&#10;/Users/rattigan/dev/richard/Flashback/flashback/project.clj&#10;/Users/rattigan/dev/richard/euler-clj/project.clj&#10;/Users/rattigan/Downloads/settings.jar&#10;/Users/rattigan/Downloads/Shortcuts (1).dmg.gz&#10;/Users/rattigan/Downloads" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/github/assembler&#10;/Users/rattigan/github/nonstd&#10;/Users/rattigan/github/io-bench&#10;/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home&#10;/Users/rattigan/github/tools/tools.iml&#10;/Users/rattigan/Applications/VisualVM.app/Contents/MacOS/visualvm&#10;/Users/rattigan/github/vow/build.gradle&#10;/Users/rattigan/github/todoist-cli/build.gradle&#10;/usr/local/Cellar/groovy/2.4.5/libexec&#10;/usr/local/Cellar/gradle/2.10&#10;/Users/rattigan/github/archetype-kotlin/build.gradle&#10;/usr/local/Cellar/gradle/2.10/libexec&#10;/Users/rattigan/github/archetype-kotlin&#10;/Users/rattigan/github/tools&#10;/Users/rattigan/dev/richard/github/archetype-gradle&#10;/Users/rattigan/dev/richard/github/archetype-kotlin&#10;/Users/rattigan/dev/richard/rattigan.github.io&#10;/Users/rattigan/dev/sage/grendel/lib&#10;/usr/local/Cellar/groovy/2.4.1/libexec&#10;/Users/rattigan/dev/richard/mal/groovy/build.gradle&#10;/Users/rattigan/dev/richard/python&#10;/Users/rattigan/dev/richard/pymusic&#10;/usr/local/bin/python2.7&#10;/Users/rattigan/dev/richard/sonos-java&#10;/Users/rattigan/dev/richard/Flashback&#10;/Users/rattigan/homebrew/Cellar/groovy/2.2.2/libexec&#10;/Users/rattigan/dev/richard/Flashback/flashback&#10;/Users/rattigan/dev/richard/Flashback/flashback/project.clj&#10;/Users/rattigan/dev/richard/euler-clj/project.clj&#10;/Users/rattigan/Downloads/settings.jar" />
     <property name="evlsprt2.5" value="128fbdf4508" />
     <property name="evlsprt.5" value="128c6328352" />
     <property name="evlsprt.7" value="134c898edf0" />
@@ -56,17 +54,17 @@
     <property name="log.debug.categories" value="" />
     <property name="DefaultHtmlDoctype.Refreshed" value="2" />
     <property name="project.wizard.group" value="org.jetbrains.plugins.gradle.service.project.wizard.GradleModuleBuilder" />
-    <property name="project.wizard.template" value="Gradle" />
+    <property name="project.wizard.template" value="Empty Project" />
     <property name="android.logcat.filter.apply.if.client.selection.changes" value="false" />
     <property name="LayoutCode.processChangedText" value="false" />
     <property name="FileColorsEnabled" value="true" />
     <property name="FileColorsForTabsEnabled" value="true" />
     <property name="FileColorsForProjectViewEnabled" value="true" />
     <property name="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.splitter" value="0.3" />
-    <property name="last.used.gradle.home" value="/usr/local/Cellar/gradle/2.10/libexec" />
+    <property name="last.used.gradle.home" value="/usr/local/Cellar/gradle/2.11/libexec" />
     <property name="FileStructurePopup.narrowDown" value="true" />
-    <property name="last.imported.location" value="$USER_HOME$/github/vow/build.gradle" />
-    <property name="create.project.preferred.importer" value="Existing Sources" />
+    <property name="last.imported.location" value="$USER_HOME$/github/assembler" />
+    <property name="create.project.preferred.importer" value="Gradle" />
     <property name="test_tree_console_proprtion" value="0.32866043" />
     <property name="junit_statistics_table_columnsWidth0" value="75" />
     <property name="junit_statistics_table_columnsOrder0" value="0" />
@@ -93,8 +91,8 @@
     <property name="jdk.selected.PYTHON_MODULE" value="Python 2.7.6 (/usr/bin/python)" />
     <property name="DEVKIT_SANDBOX_HISTORY" value="$USER_HOME$/Library/Caches/IntelliJIdea90/plugins-sandbox" />
     <property name="evlsprt3.15" value="10" />
-    <property name="installed.kotlin.plugin.version" value="1.0.0-beta-4584-IJ143-12" />
-    <property name="android-component-compatibility-check" value="1456062409599" />
+    <property name="installed.kotlin.plugin.version" value="1.0.0-release-IJ143-75" />
+    <property name="android-component-compatibility-check" value="1457790429131" />
     <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
     <property name="selected.color.option.type" value="KOTLIN_ANNOTATION" />
@@ -110,5 +108,23 @@
     <property name="sm_test_statistics_table_columnsOrder1" value="1" />
     <property name="sm_test_statistics_table_columnsWidth2" value="75" />
     <property name="sm_test_statistics_table_columnsOrder2" value="2" />
+    <property name="introduce.final.checkbox" value="false" />
+    <property name="ShowDocumentationInToolWindow" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="settings.code.style.selected.tab.JAVA" value="Tabs and Indents" />
+    <property name="typescript.show.auto.import" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.49156117" />
   </component>
 </application>

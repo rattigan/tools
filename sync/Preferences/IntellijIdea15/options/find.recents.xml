@@ -1,60 +1,38 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>threadPool</find>
-      <find>ili</find>
-      <find>55912</find>
-      <find>synchroni</find>
-      <find>addValue</find>
-      <find>l</find>
-      <find>buffer</find>
-      <find>/100</find>
-      <find>&amp; 0xffL</find>
-      <find>then +=</find>
-      <find>;</find>
-      <find>writelong</find>
-      <find>getLong</find>
-      <find>b</find>
-      <find>putLong</find>
-      <find>off</find>
-      <find>write</find>
-      <find>copy</find>
-      <find>copy(</find>
-      <find>copyTo</find>
-      <find>bytesRead</find>
-      <find>sleep</find>
-      <find>trap</find>
-      <find>trap_off</find>
-      <find>_dir</find>
-      <find>_</find>
-      <find>trap_on</find>
-      <find>log_color</find>
-      <find>theme</find>
-      <find>#</find>
+      <find>join(</find>
+      <find>install Caskroom/cask/</find>
+      <find>collection</find>
+      <find>int</find>
+      <find>char</find>
+      <find>byte</find>
+      <find>float</find>
+      <find>of</find>
+      <find>checkedSet</find>
+      <find>asList</find>
+      <find>notifyDone</find>
+      <find>e.getValue()</find>
+      <find>hash</find>
+      <find>h</find>
+      <find>hashcode</find>
+      <find>hashCode</find>
+      <find>equals(</find>
+      <find>implements Seq</find>
+      <find>[]</find>
+      <find>isLess</find>
+      <find>Function</find>
+      <find>T</find>
+      <find>equals</find>
+      <find>sortedBy</find>
+      <find>sorted</find>
+      <find>Comparator</find>
+      <find>Consumer</find>
+      <find>summingInt</find>
+      <find>Collector</find>
+      <find>spliterator</find>
     </findStrings>
     <replaceStrings>
-      <replace>BuiltIns</replace>
-      <replace>def</replace>
-      <replace>(==</replace>
-      <replace>fn</replace>
-      <replace>defmacro</replace>
-      <replace>y</replace>
-      <replace>horizontal</replace>
-      <replace>//System</replace>
-      <replace>System</replace>
-      <replace>bg_</replace>
-      <replace>_light=</replace>
-      <replace>white</replace>
-      <replace>purple</replace>
-      <replace>' \\\n'</replace>
-      <replace>foreground_color</replace>
-      <replace>foreground_color_label</replace>
-      <replace>background_color</replace>
-      <replace>=</replace>
-      <replace>Vow</replace>
-      <replace>//log</replace>
-      <replace>log.err</replace>
-      <replace>if (debug) log.info</replace>
       <replace>executorService</replace>
       <replace>L</replace>
       <replace>(long)buffer</replace>
@@ -63,6 +41,28 @@
       <replace>_file</replace>
       <replace>-</replace>
       <replace>#</replace>
+      <replace>'</replace>
+      <replace>ByteBuffer</replace>
+      <replace>Slot</replace>
+      <replace>promise</replace>
+      <replace>defer</replace>
+      <replace>handler</replace>
+      <replace>20</replace>
+      <replace>Exceptions.unchecked</replace>
+      <replace>cask install</replace>
+      <replace>iterable</replace>
+      <replace>char</replace>
+      <replace>short</replace>
+      <replace>long</replace>
+      <replace>float</replace>
+      <replace>double</replace>
+      <replace>seq</replace>
+      <replace>value</replace>
+      <replace>...</replace>
+      <replace>BiFunction</replace>
+      <replace>K</replace>
+      <replace>Consumer</replace>
+      <replace>Runnable</replace>
     </replaceStrings>
   </component>
 </application>

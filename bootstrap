@@ -20,20 +20,34 @@ function check-xcode-installed {
     xcode-select -p
 }
 
+function map-capslock-to-control {
+    ioreg -n IOHIDKeyboard -r | grep -E 'VendorID"|ProductID' | awk '{ print $4 }' | paste -s -d'-\n' - \
+    | xargs -I{} defaults -currentHost write -g "com.apple.keyboard.modifiermapping.{}-0" -array "<dict><key>HIDKeyboardModifierMappingDst</key><integer>2</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>"
+}
+
 function brew-install-apps {
+    sudo chown -R $USER:admin /usr/local
+    brew update
+    brew upgrade
     brew install zsh
     brew install bash
     brew install Caskroom/versions/iterm2-beta
-    brew install Caskroom/cask/witch
-    brew install Caskroom/cask/bettertouchtool
-    brew install Caskroom/cask/quicksilver
-    brew install Caskroom/cask/dropbox
-    brew install Caskroom/cask/java
-    brew install Caskroom/cask/intellij-idea
-    brew install Caskroom/cask/google-chrome
-    brew install Caskroom/cask/1password
-    brew install Caskroom/cask/diffmerge
-    brew install Caskroom/cask/skype
+    brew cask install witch
+    brew cask install bettertouchtool
+    brew cask install quicksilver
+    brew cask install dropbox
+
+    brew cask install java
+    brew cask install intellij-idea
+    brew cask install visualvm
+    brew cask install vagrant
+    brew cask install virtualbox
+    brew cask install diffmerge
+    brew cask install monodraw
+
+    brew cask install google-chrome
+    brew cask install 1password
+    brew cask install skype
 }
 
 function install-powerline-fonts {
@@ -63,22 +77,47 @@ EOF
     trap-on
 }
 
-
-
 function set-defaults {
     log "setting defaults"
     # faster keybaord
     defaults write NSGlobalDomain InitialKeyRepeat -float 10
     defaults write NSGlobalDomain KeyRepeat -int 2
 
+    # tab to all controls
+    defaults write NSGlobalDomain AppleKeyboardUIMode -int 2
+
+    # set function keys to work with fn key
+    defaults write NSGlobalDomain "com.apple.keyboard.fnState" -int 1
+
+    # enable tap to click
+    defaults write "com.apple.AppleMultitouchTrackpad" Clicking -int 1
+    defaults write "com.apple.driver.AppleBluetoothMultitouch.trackpad" Clicking -int 1
+
+    # Enable "tap-and-a-half" to drag.
+    defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -int 1
+    defaults write com.apple.AppleMultitouchTrackpad Dragging -int 1
+
+    # Enable 3-finger drag. (Moving with 3 fingers in any window "chrome" moves the window.)
+    defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+    defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+
+    # tap to drag on built in trackpad
+    defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 2
+    defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 2
+
     # ensure that the dock stays hidden
     defaults write "com.apple.dock" autohide-delay -float 10000
+
+    # autohide menu bar
+    defaults write NSGlobalDomain HIHideMenuBar -bool true
 
     # stop apps reopening on reboot
     defaults write -g ApplePersistence -bool no
 
     # stop iterm prompting on exit
     defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
+    map-capslock-to-control
 
 }
 
@@ -104,15 +143,15 @@ log "bootstrapping"
 
 request-sudo
 ./setup
-#check-xcode-installed
-#configure-git
-#install-homebrew
-#brew-install-apps
-#set-zsh-as-default-shell
+check-xcode-installed
+configure-git
+install-homebrew
+brew-install-apps
+set-zsh-as-default-shell
 install-powerline-fonts
 configure-prezto
-#install-login-script
-#set-defaults
-#reboot
+install-login-script
+set-defaults
+reboot
 
 log "bootstrapping complete"
