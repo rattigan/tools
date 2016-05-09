@@ -33,6 +33,9 @@ function brew-install-apps {
     brew install bash
     brew install Caskroom/versions/iterm2-beta
 
+    brew cask install java6
+    brew cask install java
+
     brew install gradle
     brew install maven
     brew install ant
@@ -45,8 +48,6 @@ function brew-install-apps {
     brew cask install dropbox
     brew cask install sonoair
 
-    brew cask install java6
-    brew cask install java
     brew cask install intellij-idea
     brew cask install visualvm
     brew cask install vagrant
