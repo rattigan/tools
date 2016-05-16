@@ -46,7 +46,7 @@ function brew-install-apps {
     brew cask install bettertouchtool
     brew cask install quicksilver
     brew cask install dropbox
-    brew cask install sonoair
+    #brew cask install sonoair
 
     brew cask install intellij-idea
     brew cask install visualvm
