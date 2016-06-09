@@ -97,9 +97,12 @@ function set-zsh-as-default-shell {
 
 function configure-prezto {
     log "configuring prezto"
-    git clone --recursive https://github.com/sorin-ionescu/prezto.git "$HOME/.zprezto"
-    zsh << EOF
     trap - ERR
+    git clone --recursive https://github.com/sorin-ionescu/prezto.git "$HOME/.zprezto"
+    trap-on
+    (cd "$HOME/.zprezto" && git pull)
+    trap - ERR
+    zsh << EOF
     setopt EXTENDED_GLOB
     for rcfile in "\$HOME"/.zprezto/runcoms/^(README.md(.N)); do
         ln -s "\$rcfile" "\$HOME/.\${rcfile:t}"
