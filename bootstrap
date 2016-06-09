@@ -35,18 +35,20 @@ function brew-install-apps {
 
     brew cask install java6
     brew cask install java
+    brew cask install jce-unlimited-strength-policy
 
     brew install gradle
     brew install maven
     brew install ant
     brew install graphviz
+    brew install tree
 
     brew cask install wacom-tablet
     brew cask install witch
     brew cask install bettertouchtool
     brew cask install quicksilver
     brew cask install dropbox
-    #brew cask install sonoair
+    brew cask install path-finder
 
     brew cask install intellij-idea
     brew cask install visualvm
@@ -62,7 +64,16 @@ function brew-install-apps {
     brew cask install skype
 
     brew cask install fitbit-connect
-    brew cask install zoom
+    brew cask install zoomus
+    brew cask install google-hangouts
+
+    #brew cask install omnigraffle
+    brew cask install spotify
+
+    brew install python
+    pip install virtualenv
+
+    brew install scala
 }
 
 
