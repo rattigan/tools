@@ -57,6 +57,7 @@ function brew-install-apps {
     brew cask install diffmerge
     # remove?
     brew cask install monodraw
+    brew cask install sonos
 
     brew cask install google-chrome
     brew cask install 1password
@@ -130,6 +131,10 @@ function set-defaults {
     # Enable 3-finger drag. (Moving with 3 fingers in any window "chrome" moves the window.)
     defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
     defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+
+    # disable 3 and 4-finger swipe
+    defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerHorizSwipeGesture -bool false
+    defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -bool false
 
     # tap to drag on built in trackpad
     defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 2
