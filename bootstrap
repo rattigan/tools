@@ -184,7 +184,7 @@ install-homebrew
 brew-install-apps
 install-graph-easy
 set-zsh-as-default-shell
-install-powerline-fonts
+#install-powerline-fonts
 configure-prezto
 install-login-script
 set-defaults
