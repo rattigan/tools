@@ -49,8 +49,13 @@ function log-color {
 
 ####################################################################################################
 # bash settings
-set -o pipefail
 
+# fail fast in piped expressions
+set -o pipefail
+# subshells inherit traps
+set -o errtrace
+
+# show line that failed on error
 function _on-error {
     local file=$1
     local line=$2
@@ -63,5 +68,7 @@ function _on-error {
 function trap-on {
     trap '_on-error "$BASH_SOURCE" "$LINENO" "$?"' ERR
 }
+
+# enable trap
 
 trap-on

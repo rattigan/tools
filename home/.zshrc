@@ -46,6 +46,10 @@ alias java7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)'
 alias java8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
 
 ################################################################################
+# Homebrew
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+################################################################################
 # Editor
 export EDITOR='subl_w'
 
@@ -131,9 +135,18 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 ################################################################################
 # Perl
-source $HOME/perl5/perlbrew/etc/bashrc
 PATH="$HOME/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="$HOME/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="$HOME/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
+
+
+################################################################################
+# virtualenv
+alias activate="source env/bin/activate"
+
+################################################################################
+# Docker
+alias docker-init="source /Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh"
+
