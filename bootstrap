@@ -32,23 +32,42 @@ function brew-install-apps {
     brew install zsh
     brew install bash
     brew install Caskroom/versions/iterm2-beta
+
+    brew cask install java6
+    brew cask install java
+
+    brew install gradle
+    brew install maven
+    brew install ant
+    brew install graphviz
+
+    brew cask install wacom-tablet
     brew cask install witch
     brew cask install bettertouchtool
     brew cask install quicksilver
     brew cask install dropbox
+    #brew cask install sonoair
 
-    brew cask install java
     brew cask install intellij-idea
     brew cask install visualvm
     brew cask install vagrant
     brew cask install virtualbox
     brew cask install diffmerge
+    # remove?
     brew cask install monodraw
     brew cask install sonos
 
     brew cask install google-chrome
     brew cask install 1password
     brew cask install skype
+
+    brew cask install fitbit-connect
+    brew cask install zoom
+}
+
+
+function install-graph-easy {
+    cpan install Graph::Easy
 }
 
 function install-powerline-fonts {
@@ -152,6 +171,7 @@ check-xcode-installed
 configure-git
 install-homebrew
 brew-install-apps
+install-graph-easy
 set-zsh-as-default-shell
 install-powerline-fonts
 configure-prezto

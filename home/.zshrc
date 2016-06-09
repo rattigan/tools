@@ -128,3 +128,12 @@ export LSCOLORS=cxfxBxdxgxGxDxabagacad
 # 37	Grey
 export LS_COLORS='di=32:ln=35:so=31:pi=33:ex=36:bd=36;01:cd=33;01:su=31;40;07:sg=36;40;07:tw=32;40;07:ow=33;40;07:'
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+
+################################################################################
+# Perl
+source $HOME/perl5/perlbrew/etc/bashrc
+PATH="$HOME/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="$HOME/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="$HOME/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
