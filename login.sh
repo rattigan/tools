@@ -1,3 +1,6 @@
+
+#launchctl setenv PLANTUML_LIMIT_SIZE 32768
+
 open -a Quicksilver
 open -a BetterTouchTool
 open -a "1Password 6"

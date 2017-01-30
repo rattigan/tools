@@ -36,6 +36,7 @@ function brew-install-apps {
     brew cask install java6
     brew cask install java
     brew cask install jce-unlimited-strength-policy
+    brew install jenv
 
     brew install gradle
     brew install maven
@@ -72,6 +73,7 @@ function brew-install-apps {
 
     brew install python
     pip install virtualenv
+    brew install httpie
 
     brew install scala
 }

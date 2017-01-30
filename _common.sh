@@ -1,6 +1,6 @@
 ####################################################################################################
 # script metadata
-this_dir=$(cd $(dirname "$0"); pwd)
+this_dir=$(cd $(dirname "$0") && pwd)
 this_file="$script_dir"/$(basename "$0")
 
 ####################################################################################################
@@ -62,11 +62,15 @@ function _on-error {
     local exit_code=$3
     log-color "$color_red" "ERROR: exit code $exit_code at $file:$line
     $( cat "$1"  | sed "${line}q;d" )"
-    exit $?
+    exit $exit_code
 }
 
 function trap-on {
-    trap '_on-error "$BASH_SOURCE" "$LINENO" "$?"' ERR
+    trap '_on-error "$this_dir$BASH_SOURCE" "$LINENO" "$?"' ERR
+}
+
+function trap-off {
+    trap - ERR
 }
 
 # enable trap
