@@ -9,3 +9,4 @@ shift
 
 log linking to "$source"
 git remote add origin "https://github.com/$GITHUB_USER/$source.git"
+git push -u origin master

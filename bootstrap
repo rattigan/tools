@@ -21,7 +21,7 @@ function check-xcode-installed {
 }
 
 function map-capslock-to-control {
-    ioreg -n IOHIDKeyboard -r | grep -E 'VendorID"|ProductID' | awk '{ print $4 }' | paste -s -d'-\n' - \
+    ioreg -n AppleEmbeddedKeyboard -r | grep -E 'VendorID"|ProductID' | awk '{ print $4 }' | paste -s -d'-\n' - \
     | xargs -I{} defaults -currentHost write -g "com.apple.keyboard.modifiermapping.{}-0" -array "<dict><key>HIDKeyboardModifierMappingDst</key><integer>2</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>"
 }
 
@@ -29,13 +29,13 @@ function brew-install-apps {
     sudo chown -R $USER:admin /usr/local
     brew update
     brew upgrade
-    brew install zsh
     brew install bash
+    brew install zsh
     brew install Caskroom/versions/iterm2-beta
 
     brew cask install java6
     brew cask install java
-    brew cask install jce-unlimited-strength-policy
+    #brew cask install jce-unlimited-strength-policy
 
     brew install gradle
     brew install maven
@@ -43,7 +43,8 @@ function brew-install-apps {
     brew install graphviz
     brew install tree
 
-    brew cask install wacom-tablet
+    brew tap caskroom/drivers
+    brew cask install wacom-intuos-tablet
     brew cask install witch
     brew cask install bettertouchtool
     brew cask install quicksilver
@@ -55,29 +56,37 @@ function brew-install-apps {
     brew cask install vagrant
     brew cask install virtualbox
     brew cask install diffmerge
-    # remove?
-    brew cask install monodraw
     brew cask install sonos
 
     brew cask install google-chrome
     brew cask install 1password
     brew cask install skype
 
-    brew cask install fitbit-connect
+    #brew cask install fitbit-connect
     brew cask install zoomus
     brew cask install google-hangouts
 
     #brew cask install omnigraffle
     brew cask install spotify
-
+    
     brew install python
-    pip install virtualenv
+    # TODO can this be done without sudo?
+    #sudo
+    easy_install pip
+    #sudo
+    easy_install virtualenv
+    #pip install virtualenv
 
     brew install scala
+
+    brew install ansible
+    brew install awscli
 }
 
 
 function install-graph-easy {
+    # TODO drop sudo?
+    #sudo
     cpan install Graph::Easy
 }
 
@@ -161,6 +170,7 @@ function set-defaults {
 
 function install-login-script {
     local plist=$( cat ./login.plist | sed 's/$USER/'"$USER"'/' )
+    mkdir -p /Users/"$USER"/Library/LaunchAgents
     cat > /Users/"$USER"/Library/LaunchAgents/login.plist <<< "$plist"
 }
 
