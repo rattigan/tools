@@ -41,9 +41,10 @@ export PATH=$HOME/bin:$HOME/tools:$PATH
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
 
-alias java6='export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)'
-alias java7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)'
-alias java8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
+alias java6='export JAVA_HOME=$(/usr/libexec/java_home -v 1.6) JDK_HOME=$(/usr/libexec/java_home -v 1.6)'
+alias java7='export JAVA_HOME=$(/usr/libexec/java_home -v 1.7) JDK_HOME=$(/usr/libexec/java_home -v 1.7)'
+alias java8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8) JDK_HOME=$(/usr/libexec/java_home -v 1.8)'
+eval "$(jenv init -)"
 
 ################################################################################
 # Homebrew
@@ -149,4 +150,3 @@ alias activate="source env/bin/activate"
 ################################################################################
 # Docker
 alias docker-init="source /Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh"
-
